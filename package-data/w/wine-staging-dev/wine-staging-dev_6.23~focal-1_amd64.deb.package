@@ -1,0 +1,24 @@
+Package: wine-staging-dev
+Architecture: amd64
+Version: 6.23~focal-1
+Priority: optional
+Section: libdevel
+Source: wine-staging
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 38584
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6-dev, wine-staging-i386 (= 6.23~focal-1), wine-staging-amd64 (= 6.23~focal-1)
+Filename: ./w/wine-staging-dev/wine-staging-dev_6.23~focal-1_amd64.deb
+Size: 3136832
+MD5sum: 0d29b4e15231c19d283d9949522f8849
+SHA1: e0fedf267c40e2c91f1ec72e463c3b8740940dc9
+SHA256: f6f5535d02cc4d7bae688962c88d8c152d44e7a7a68bbbf24b7cb07c3e1c18bc
+SHA512: 39ac7b8ebc88426d4784f435b3515d787b25e72370d9160593a3f78c29c47c8acdcc62f5be1077d19451d1186bfd04973a2fa4e2fdbdb12627f1a76bfab166a2
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the libraries and header files needed to
+ develop programs which make use of Wine.
+

@@ -1,0 +1,26 @@
+Package: wine-staging
+Architecture: amd64
+Version: 6.23~focal-1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 17789
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.14), wine-staging-i386 (= 6.23~focal-1), wine-staging-amd64 (= 6.23~focal-1)
+Recommends: libcap2-bin
+Filename: ./w/wine-staging/wine-staging_6.23~focal-1_amd64.deb
+Size: 3643812
+MD5sum: c4d7a58f80252e83715190505afd8949
+SHA1: 3f84fbe27ed7985a3267d58182b8ca40e1fb90af
+SHA256: 217c7d28f7f573c6a39b8a094f6bb2225bc55770d8e6e60c228f2e3e6e52b50e
+SHA512: b90f8c47dbf213994026662a482897a0cf90d9d54ef4f1edec8a80687a3c619038a0513a8c62fc5e49ff1be2dcd786718c530ecb1c5cd00b513df7b3a3c1909b
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+
