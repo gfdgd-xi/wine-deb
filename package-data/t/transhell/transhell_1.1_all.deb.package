@@ -1,0 +1,17 @@
+Package: transhell
+Architecture: all
+Version: 1.1
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Installed-Size: 10
+Depends: bash
+Filename: ./t/transhell/transhell_1.1_all.deb
+Size: 1212
+MD5sum: 29954be5a9edb8506d4856d012d2c56e
+SHA1: fae97ed2e5b9963362642756091ce6617cc4dc9b
+SHA256: 0974adcd5569a0b2b6a14cebeb242506a75d713a6597e52c98eb8356cd255502
+SHA512: d140303dfe866c12f1ca93285370999c412738fb93145623918a8b4396bbe1dbe8fda0b17cccdf3da51286489bb198f8129acddab3d77f76a76d3031663b61a8
+Homepage: https://gitee.com/spark-community-works-collections/transhell
+Description: make bash shell i18n. Can be used by source /opt/durapps/transhell/transhell.sh
+
