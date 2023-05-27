@@ -1,0 +1,24 @@
+Package: deepin-wine
+Architecture: all
+Version: 2.18-24~rc3
+Built-Using: khronos-api (= 0~svn29735-1.1), unicode-data (= 9.0-1)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>
+Installed-Size: 132
+Depends: deepin-wine64 (>= 2.18-24~rc3) | deepin-wine32 (>= 2.18-24~rc3), deepin-wine64 (<< 2.18-24~rc3.1~) | deepin-wine32 (<< 2.18-24~rc3.1~)
+Suggests: deepin-wine-binfmt, dosbox (>= 0.74-4.2~)
+Filename: ./d/deepin-wine/deepin-wine_2.18-24~rc3_all.deb
+Size: 97258
+MD5sum: b3b3161ebe73dc1c90334dec26d0eeb3
+SHA1: 42edb2b15a0597501cd849f21b01ad30e6590db4
+SHA256: 4fc37c191106f3158dafdb1a4ac841213c3d02997de89ee5ede7bc6a7e109fe8
+SHA512: ef8fbf9fac3e47672b79bbc0842d60c7843955d4657c175771456469c408cf02867865e56387bea7fec9c805a5c90606b0096f0c6315924fcbc0485be4b16181
+Homepage: http://www.winehq.org/
+Description: Windows API implementation - standard suite
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides convenience tools for the standard Wine components.
+

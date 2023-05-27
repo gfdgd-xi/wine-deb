@@ -1,0 +1,25 @@
+Package: deepin-fonts-wine
+Architecture: all
+Version: 2.18-24~rc3
+Built-Using: khronos-api (= 0~svn29735-1.1), unicode-data (= 9.0-1)
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: deepin-wine
+Maintainer: Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>
+Installed-Size: 5676
+Breaks: libdeepin-wine (<< 1.7.41-2~)
+Replaces: libdeepin-wine (<< 1.7.41-2~)
+Filename: ./d/deepin-fonts-wine/deepin-fonts-wine_2.18-24~rc3_all.deb
+Size: 1890576
+MD5sum: f4c46c61f844a58913f78c2a268141da
+SHA1: abfebb8bbc7c5c435021a1cd3adfc95b05b8671e
+SHA256: a6d2a40ac7ca47bf4885ff68ba4f8fb70921748b88cdbb5bf57ba35fb4aacb77
+SHA512: 29f16db439038b914b0da7721a3d43a298c0d87416a7fb1374b584617887cd486d41b081ef90d111b1393ee997c2b374a015972c6c4f5d5280378033aaf6fb25
+Homepage: http://www.winehq.org/
+Description: Windows API implementation - fonts
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides the fonts used by wine.
+

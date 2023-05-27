@@ -1,0 +1,18 @@
+Package: udis86
+Architecture: amd64
+Version: 1.72-4
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 418
+Depends: libc6 (>= 2.7)
+Filename: ./u/udis86/udis86_1.72-4_amd64.deb
+Size: 796
+MD5sum: bd838e32bad40f9e658e88749d31ecdf
+SHA1: 06324744baa3974d249a07304611ca4f5e87af23
+SHA256: 3bc3108b5fad4afb12d4d9500c17c74d1c6ba48bd4ac69d5d0de9fb5ad30ddbb
+SHA512: d4fbdf82db9ef7f0f79d4e4c9f9f9d131038d2c3968a4e3bc2a41c758fb8d5c9dc77d97393bc5a943f313997ddd25394b30af396daad60014f082ee43173a06d
+Homepage: http://udis86.sourceforge.net/
+Description: Disassembler Library for x86 and x86-64
+

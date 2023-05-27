@@ -1,0 +1,16 @@
+Package: com.deepin-wine6-stable.deepin
+Architecture: arm64
+Version: 6.0.0.45-2
+Multi-Arch: foreign
+Priority: optional
+Section: non-free/otherosfs
+Maintainer: deepin-wine team
+Depends: deepin-elf-verify (>= 1.1.1-1),  com.deepin-box86.deepin (>= 0.2.6deepin9),  com.deepin-wine-runtime.deepin
+Filename: ./c/com.deepin-wine6-stable.deepin/com.deepin-wine6-stable.deepin_6.0.0.45-2_arm64.deb
+Size: 52878936
+MD5sum: 995fa2147b3d31a8092b6707f863f570
+SHA1: 332f37cb58796f718c4efa91db4769a28e98900f
+SHA256: 3a7f864b1444a54ac455bb147198593d7f9c219709d75ee5ce12fe7874bc63cc
+SHA512: 845ef7496d20308d37a361fce571f4df1e82d0dd0c665d56f407994177057dcdc91f322259a6f48ebda24638570c5cc8471ab6edf15b3095a3fe8ddadfcd27b4
+Description: deepin-wine-i386 on arm
+

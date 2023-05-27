@@ -1,0 +1,18 @@
+Package: box64
+Architecture: arm64
+Version: 0.2.3+20230322.900f387-1
+Priority: extra
+Section: checkinstall
+Maintainer: root@ed411aafa29f
+Installed-Size: 13024
+Provides: box64
+Conflicts: qemu-user-static
+Filename: ./b/box64/box64_0.2.3+20230322.900f387-1_arm64.deb
+Size: 2314536
+MD5sum: 94725dbd291a15965e37937250e57eac
+SHA1: c1f0660a182c64386c1ff9542e4df3d25f87decf
+SHA256: b2ec4b2df71c15945dbf822dffcc3d3cbfb9e56e0e879cbc6c8ce317e9f503d4
+SHA512: 95bbde22155335c225a7d825af70f968fca2c061852fdb19afabe13520f5c2a2c21d885299deb27baff6a465f10b1409f8f35658423191f8d4beed88bf87ec32
+Description: Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+ Box64 lets you run x86_64 Linux programs (such as games) on non-x86_64 Linux systems, like ARM (host system needs to be 64bit little-endian)
+

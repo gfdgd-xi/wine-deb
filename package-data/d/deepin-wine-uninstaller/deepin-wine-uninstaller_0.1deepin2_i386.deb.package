@@ -1,0 +1,16 @@
+Package: deepin-wine-uninstaller
+Architecture: i386
+Version: 0.1deepin2
+Multi-Arch: foreign
+Priority: optional
+Section: non-free/otherosfs
+Maintainer: Hao Peng
+Installed-Size: 121
+Filename: ./d/deepin-wine-uninstaller/deepin-wine-uninstaller_0.1deepin2_i386.deb
+Size: 53428
+MD5sum: 88c9c377e62fc97f9f6b02351b422009
+SHA1: b422514d73efd985fa26ddea4378ee85fa59c29c
+SHA256: 224203708d2b8eb30755353e32536691c7d62db1526e76c974dc05a5ecf255b0
+SHA512: 46ba5fffd368a43f871196d42c6cacc9684704f55a301a4d033ba49c5b20d1ed96efb8033ffd1bb3df7b85b7ae96cd8e2a00c10641af6e74f54d3a329a730a61
+Description: Deepin Wine Uninstaller Tool
+

@@ -1,0 +1,20 @@
+Package: libcapi20-3
+Architecture: i386
+Version: 1:3.27-3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Maintainer: Rolf Leggewie <foss@rolf.leggewie.biz>
+Installed-Size: 105
+Depends: libc6 (>= 2.15)
+Filename: ./l/libcapi20-3/libcapi20-3_1:3.27-3_i386.deb
+Size: 29116
+MD5sum: 05ecbff3c4fcb917314c981522ce8efb
+SHA1: 0cc0b02007a220d74a83741770b62afcad2d0032
+SHA256: 24848e8862f50be5fc16dbeb5aac12083b307fb900bad7a93891d53013e9a87b
+SHA512: 7f745c58e78f27d266faa2e9a31b810a4fa15496f58634851a4e3efede5db4a2705bf223422930b6033dbd700c4d6e5940161152b173662489d322c998414bb9
+Homepage: http://www.isdn4linux.de
+Description: ISDN utilities - CAPI support libraries
+ Handle requests from CAPI-driven applications such as fax systems via active
+ and passive ISDN cards.
+

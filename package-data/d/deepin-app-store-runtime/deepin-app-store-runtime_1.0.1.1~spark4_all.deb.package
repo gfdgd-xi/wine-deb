@@ -1,0 +1,18 @@
+Package: deepin-app-store-runtime
+Architecture: all
+Version: 1.0.1.1~spark4
+Priority: optional
+Section: utils
+Maintainer: shenmo <shenmo@spark-app.store>
+Provides: deepin-elf-verify (= 100.0.0),deepin-elf-verify:all (= 100.0.0),deepin-elf-verify:amd64 (= 100.0.0),deepin-elf-verify:i386 (= 100.0.0),deepin-elf-verify:arm64 (= 100.0.0)
+Depends: deepin-elf-verify (>= 0.0.16.7-1)
+Conflicts: deepin-elf-verify
+Replaces: deepin-elf-verify
+Filename: ./d/deepin-app-store-runtime/deepin-app-store-runtime_1.0.1.1~spark4_all.deb
+Size: 12124
+MD5sum: 4751683b001cc22663defd659ce03307
+SHA1: 4174dde7d3965a864f166bf5d51b41f4486b085a
+SHA256: d954c91449d54aa78a426e8c49b361f51dc31185b62373f0fef757e6894b3a96
+SHA512: fe3957e3e8d401498115eb101b1dbd610beb6e778279606cb3ce2884595f40ab3169bfae489729cccd4dcf1aea54f2b4bceb035be46174755008eaf75afa3422
+Description: A runtime environment software package for Deepin App Store.
+
