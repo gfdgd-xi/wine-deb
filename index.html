@@ -32,9 +32,118 @@ wget http://apt.gfdgdxi.top/sources/github.sh; bash github.sh; rm github.sh
 </code></pre>
     <p>作者：<a href='https://gitee.com/gfdgd-xi/'>https://gitee.com/gfdgd-xi/</a></p>
     <p><a href='tree.html'>在这里查看 APT 源目录树</a></p>
-    <h3>更新时间：2023年5月26日 21:59:59</h3>
+    <h3>更新时间：2023年5月27日 12:28:27</h3>
     <hr/>
-    <h2>winehq-devel_8.8~focal-1_i386.deb</h2>
+    <h2>winehq-devel_7.22~focal-1_amd64.deb</h2>
+<p><b>下载链接：<a href='http://apt.gfdgdxi.top/w/winehq-devel/winehq-devel_7.22~focal-1_amd64.deb'>http://apt.gfdgdxi.top/w/winehq-devel/winehq-devel_7.22~focal-1_amd64.deb</a></b></p>
+<pre><code>Package: winehq-devel
+Source: wine
+Version: 7.22~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 73
+Depends: wine-devel (= 7.22~focal-1)
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Section: otherosfs
+Priority: optional
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This compatibility package allows to use wine-devel system-wide as
+ the default Wine version.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+</code></pre>
+<h2>wine-devel-dev_7.22~focal-1_amd64.deb</h2>
+<p><b>下载链接：<a href='http://apt.gfdgdxi.top/w/wine-devel-dev/wine-devel-dev_7.22~focal-1_amd64.deb'>http://apt.gfdgdxi.top/w/wine-devel-dev/wine-devel-dev_7.22~focal-1_amd64.deb</a></b></p>
+<pre><code>Package: wine-devel-dev
+Source: wine
+Version: 7.22~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 42680
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6-dev, wine-devel-i386 (= 7.22~focal-1), wine-devel-amd64 (= 7.22~focal-1)
+Section: libdevel
+Priority: optional
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the libraries and header files needed to
+ develop programs which make use of Wine.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+</code></pre>
+<h2>wine-devel-dbg_7.22~focal-1_amd64.deb</h2>
+<p><b>下载链接：<a href='http://apt.gfdgdxi.top/w/wine-devel-dbg/wine-devel-dbg_7.22~focal-1_amd64.deb'>http://apt.gfdgdxi.top/w/wine-devel-dbg/wine-devel-dbg_7.22~focal-1_amd64.deb</a></b></p>
+<pre><code>Package: wine-devel-dbg
+Source: wine
+Version: 7.22~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 11710
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: wine-devel-i386 (= 7.22~focal-1), wine-devel-amd64 (= 7.22~focal-1)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package includes debugging symbols useful for reporting crashes
+ and other failures.
+Build-Ids: 00595c3df8597434a8066e623d266398c9159581 03c4a10363aba1512768d87572dc79c0849434a7 1cc0b7a29ea9643db553d140bb54bb5bb153fd10 1d375e72cced164c8d4f6d537504ff016cadcba8 24512b295bb44572ce2e4adfcdafdfb0c83cced6 2734f41a51ecf5b73c09cd6307fd0ec6cf9f83c3 2cc2163c6bd2b7e5f1fd6f5f842e887788e759f2 2ee6939c2ed8c18a84977c1cc4431cc63c5952ef 343483fb65b1fef5330e4b3a913c0d8a57784c21 356e2dd56678c53561d0b8290d19dac96986c853 38929ae7974a18194680cf1b1f611e46fce6a070 402d8e66305ed772a903c1a2e20730f40218e800 43f5ef2ab05aa42a191643f65bd850388213f92d 4a6ef974cf93877248ae7057b43962ade49c8d7d 6559a124059274753382e796061de42187bab976 67d64f78d61caaa949fd95e9d04d8b76beb16cc2 67ea9f146d22d852dfc127324d71190b93d5df84 69c248b0baee198c8a4244f876d92d08a3a68aa1 6bcf97c5b0a2be42134719954657d069148a19f2 6e96383c890cb9a0b8cc1178400633b073f1c399 6ee55a46843abfabc2b57d72a0bd813fc4eda224 732b903f4c821775ec316bd5defe26144015e972 78baf7d8d2a3eb5c9b8553b5d22719ff6fab0bf4 7b3eecf2fa7ce9a4deb50d0a3885f7d60af854aa 7f13c55a6f6c30b62835f63021a7da213d3c6df6 824de8d40347d3f26416a4dbc2452febdbdb9d64 83085b3b6eddb9090bc0b4c6607dc3b90c86e595 907ae5724f4d2caa82b915430147b1a00aadef31 a7d82a6ffb47a7b1927642dec235298ffc84728f a7e58ceedf699901f8374172d98270d8db6568a7 a851e877ecdbfc2b2f00e066f187a6a33a3b5533 aca9e567885f8ccb0ac002003c0ef01ccc4298a0 adebcb6655c5ec795a149ee296e442aca0126d48 c0f248629dc80e43e41607dc6fda7abccc97030d cd3f115d553e514cb33a6b917d5dd7a60c38a402 e533c55b9f1dfdee44979e13b8fe5c0a87d11d2b edf4e6b8dc6a9ac984407be3affe4eacf22ab659 ee284c0820aaafcb565bc597dc61373e7ee3a91e efe0077224cd7a0f7bb5254f8cdc8ab934336d4f f27e175ec9d73d7c1b9113384a76a658910b88eb fb2887b6b658eda0a8a20d71965e774043833997
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+</code></pre>
+<h2>wine-devel-amd64_7.22~focal-1_amd64.deb</h2>
+<p><b>下载链接：<a href='http://apt.gfdgdxi.top/w/wine-devel-amd64/wine-devel-amd64_7.22~focal-1_amd64.deb'>http://apt.gfdgdxi.top/w/wine-devel-amd64/wine-devel-amd64_7.22~focal-1_amd64.deb</a></b></p>
+<pre><code>Package: wine-devel-amd64
+Source: wine
+Version: 7.22~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 742347
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.25), libcapi20-3, libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpcap0.8 (>= 1.5.1), libpulse0 (>= 0.99.1), libsane (>= 1.0.24), libudev1 (>= 183), libunwind8, libusb-1.0-0 (>= 2:1.0.21), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, libasound2-plugins, libncurses6 | libncurses5 | libncurses
+Recommends: libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the files needed to support 64-bit Windows
+ programs.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+</code></pre>
+<h2>wine-devel_7.22~focal-1_amd64.deb</h2>
+<p><b>下载链接：<a href='http://apt.gfdgdxi.top/w/wine-devel/wine-devel_7.22~focal-1_amd64.deb'>http://apt.gfdgdxi.top/w/wine-devel/wine-devel_7.22~focal-1_amd64.deb</a></b></p>
+<pre><code>Package: wine-devel
+Source: wine
+Version: 7.22~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 13312
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 7.22~focal-1), wine-devel-amd64 (= 7.22~focal-1)
+Recommends: libcap2-bin
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+</code></pre>
+<h2>winehq-devel_8.8~focal-1_i386.deb</h2>
 <p><b>下载链接：<a href='http://apt.gfdgdxi.top/w/winehq-devel/winehq-devel_8.8~focal-1_i386.deb'>http://apt.gfdgdxi.top/w/winehq-devel/winehq-devel_8.8~focal-1_i386.deb</a></b></p>
 <pre><code>Package: winehq-devel
 Source: wine
