@@ -44,7 +44,7 @@ try:
 except:
     html = ""
 html = f"""<h2>{debInfo[2]}_{debInfo[1]}_{debInfo[0]}.deb</h2>
-<p><b>下载链接：<a href='http://apt.gfdgdxi.top/{debInfo[2][0].lower()}/{debInfo[2]}/{debInfo[2]}_{debInfo[1]}_{debInfo[0]}.deb'>http://apt.gfdgdxi.top/{debInfo[2][0].lower()}/{debInfo[2]}/{debInfo[2]}_{debInfo[1]}_{debInfo[0]}.deb</a></b></p>
+<p><b>下载链接：<a href='http://deb.wine.wine-runner.gfdgdxi.top//{debInfo[2][0].lower()}/{debInfo[2]}/{debInfo[2]}_{debInfo[1]}_{debInfo[0]}.deb'>http://deb.wine.wine-runner.gfdgdxi.top/{debInfo[2][0].lower()}/{debInfo[2]}/{debInfo[2]}_{debInfo[1]}_{debInfo[0]}.deb</a></b></p>
 <pre><code>{all}</code></pre>
 {html}"""
 with open(f"{programPath}/list.html", "w") as file:
@@ -79,7 +79,7 @@ indexHtml = f"""<!DOCTYPE html>
     <p>点击下方链接下载</p>
     <h3>推荐直接添加该源，添加方法：</h3>
     <pre><code>
-wget http://apt.gfdgdxi.top/sources/github.sh; bash github.sh; rm github.sh
+wget http://deb.wine.wine-runner.gfdgdxi.top/sources/github.sh; bash github.sh; rm github.sh
 </code></pre>
     <p>作者：<a href='https://gitee.com/gfdgd-xi/'>https://gitee.com/gfdgd-xi/</a></p>
     <p><a href='tree.html'>在这里查看 APT 源目录树</a></p>
