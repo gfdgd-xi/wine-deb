@@ -2,12 +2,18 @@
 import os
 import sys
 programPath = os.path.split(os.path.realpath(__file__))[0]  # 返回 string
-for i in sys.argv[1:]:
+sysList = sys.argv[1:]
+if sys.argv[1] == "--github":
+    sysList = sys.argv[2:]
+for i in sysList:
     os.system(f"python3 '{programPath}/add.py' '{i}'")
 os.chdir(programPath)
 lists = []
-for i in sys.argv[1:]:
+
+for i in sysList[1:]:
     lists.append(os.path.basename(i))
+if sys.argv[1] == "--github":
+    exit()
 os.system(f"bash '{programPath}/incremental-updating-packages.sh' '{programPath}'")
 os.system("apt-ftparchive release . > Release")
 os.system("rm Release.gpg")
