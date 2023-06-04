@@ -12,8 +12,8 @@ lists = []
 
 for i in sysList[1:]:
     lists.append(os.path.basename(i))
-if sys.argv[1] == "--github":
-    exit()
+#if sys.argv[1] == "--github":
+#    exit()
 os.system(f"bash '{programPath}/incremental-updating-packages.sh' '{programPath}'")
 os.system("apt-ftparchive release . > Release")
 os.system("rm Release.gpg")
