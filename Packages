@@ -1266,6 +1266,82 @@ Description: WINE Is Not An Emulator - runs MS Windows programs
  and other failures.
 Build-Ids: 08932840814f96caa1ae2d6593b8c28491346e6c 1116a47a562feb48adf14cc6eb048c53f2476467 13c674e7f8949e90990e41fa3efc8f0f70a09846 161c9f99acc5590bdcbf5850bc13cc9c0be3a4b6 17788d7f310ea0f269d32c70f0a532a92a089f21 1be6a29d86c6d36ad5a9e55647f5948ab4fbe186 1e3b5b3d8d4d76ac066a07d8393a1184bcf21fc2 1f21c3fab70610c0b810c004069c5fe9b6ce4fbd 2a187dbc671736da7a0bd8f2c29e94649fe0bbf9 2cbd66870bdbc82d97b8a9eb39edfb550e80c6f1 2d08db8054a401a0061aa4c1a9f19fcf864273cb 4ac830fd28f3750e540ac4ce48540184d875692f 4adbb1846ba21bf00b7194bd394176dc20d4cf81 4c94eb2117b8adc7c6a3bbe81c87420fb3c1d19c 5fc220625c8fde478f009fbbc135555fa1692833 63f98c1ce3d4f21d8529ce30d7c93b434ee99b2e 7237dfbdd2b60128dd3e03ecfbe50838d864df24 72799e8c165d7452b9a171e386fa11212ed521c6 7d013734de07512035058a610522436b973715e7 7e928894f0ce202bd160f02deefdc61079657304 83480e1249742e096e6512e49da9e5f72c5cf50e 84a43e3cc4e56e39013a7664c88ac712aa6f7ac8 84e264650c919136792ff29134b8247dc5156a4f 8f4cc563a980ae6a7f04237f2dc5494a5b57e1a3 9b022c56d256c93c55337f54e705653179881ba8 9c46bdfe4e792609bd6a2754ee936d91a8f9a433 9d246f06a99e5781ea54fc8ddb8e89ff2786ed6c a565c267b9415926c6b800721983dfca369c4647 a76735d9f5297bc810ddbc7000bc841c1a98f846 a7fcb0685ac4068e7561995087cd0db6ffe20956 a8cd2c269aab6c8f26ff688429a3e5b51dc174b9 b29a671db047306fae7cf932666a4834bd0351db b3bde1a7ae338a93e55036d1d3ae70e48da01585 b7b975ee801b9b9d1ed38ef7015397a148623bff bb717240f69070a97e117ec976737769ccbbe178 c33ce82db1da5286c9947fb51eda2466cdf5270b c965ee2f4de89a1643cec7ea86d9ed655a325aac cb1d1d4cc93d676ed356e719cfd49938f609c8e0 d23c019ada148e541a53a0b0cbd260726051d196 dcd239a0f44e975da1e5fc47917a79d3327df5c3 e1d45556bf5e81e586a1ac4505ba9030cf4eee6d e6dfb0f9789bc067247767440e23ebeefe39c2f6 eb3046b01d0674959ee84a24690a9b713b563907 ee7b4ec1dc451be8dc9e7fe658350612f57a1280 f062178892e822f67df195f14c3109533bda9cad f5c340af614dcb408a9e5c1e318c75e3c15b9c8b faa328073531875acc15265520362f3e6bc3d2df fad161a0c761196bbe97683b2b3d8f32318b5524 fb2887b6b658eda0a8a20d71965e774043833997
 
+Package: wget
+Architecture: amd64
+Version: 1.20.1-1.1
+Multi-Arch: foreign
+Priority: standard
+Section: web
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 3257
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libidn2-0 (>= 0.6), libnettle6, libpcre2-8-0 (>= 10.32), libpsl5 (>= 0.16.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Conflicts: wget-ssl
+Filename: ./w/wget/wget_1.20.1-1.1_amd64.deb
+Size: 902252
+MD5sum: 0617dca7bc8d900c5d5d30f738db674b
+SHA1: 4685354cbd2470a8b2896e93477223e33f92f2a2
+SHA256: c51cb3a77ce78bced8455df72d203fa6f7cc107fa34b36180c8300a0a7a7937a
+SHA512: 5389e3cb2907d59ab8a81e7f340dec46791ed7e8ef122d5694078ccb807833c1aac43ff6ab624d9c812ece1d32befdbdb5ba2eada75e0b35a26c91486ef68f9e
+Homepage: https://www.gnu.org/software/wget/
+Description: retrieves files from the web
+ Wget is a network utility to retrieve files from the web
+ using HTTP(S) and FTP, the two most widely used internet
+ protocols. It works non-interactively, so it will work in
+ the background, after having logged off. The program supports
+ recursive retrieval of web-authoring pages as well as FTP
+ sites -- you can use Wget to make mirrors of archives and
+ home pages or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections
+ by continuing to retrieve a document until the document is fully
+ downloaded. Re-getting files from where it left off works on
+ servers (both HTTP and FTP) that support it. Both HTTP and FTP
+ retrievals can be time stamped, so Wget can see if the remote
+ file has changed since the last retrieval and automatically
+ retrieve the new version if it has.
+ .
+ Wget supports proxy servers; this can lighten the network load,
+ speed up retrieval, and provide access behind firewalls.
+
+Package: wget
+Architecture: i386
+Version: 1.20.1-1.1
+Multi-Arch: foreign
+Priority: standard
+Section: web
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 3296
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libidn2-0 (>= 0.6), libnettle6, libpcre2-8-0 (>= 10.32), libpsl5 (>= 0.16.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Conflicts: wget-ssl
+Filename: ./w/wget/wget_1.20.1-1.1_i386.deb
+Size: 913688
+MD5sum: 3d7ed858eeab0243fe7741cb1e093951
+SHA1: 5accb3e44ff2b6f848bae3323c4df199cd3efb8c
+SHA256: 21c6903086bd6f7854324b65c495831fcb89060bff1c2f1345f8e55c93949298
+SHA512: 1972707f67ee98e9e3472cf5fd64eb77c21308a208a74e3d88db301593c37344705fb3d2286fb6fbcbd84633b5843ef3d719c1b8c5e37e1ed24ddd68cfea0803
+Homepage: https://www.gnu.org/software/wget/
+Description: retrieves files from the web
+ Wget is a network utility to retrieve files from the web
+ using HTTP(S) and FTP, the two most widely used internet
+ protocols. It works non-interactively, so it will work in
+ the background, after having logged off. The program supports
+ recursive retrieval of web-authoring pages as well as FTP
+ sites -- you can use Wget to make mirrors of archives and
+ home pages or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections
+ by continuing to retrieve a document until the document is fully
+ downloaded. Re-getting files from where it left off works on
+ servers (both HTTP and FTP) that support it. Both HTTP and FTP
+ retrievals can be time stamped, so Wget can see if the remote
+ file has changed since the last retrieval and automatically
+ retrieve the new version if it has.
+ .
+ Wget supports proxy servers; this can lighten the network load,
+ speed up retrieval, and provide access behind firewalls.
+
 Package: wine-devel-dbg
 Architecture: amd64
 Version: 8.9~focal-1

@@ -1,0 +1,38 @@
+Package: wget
+Architecture: amd64
+Version: 1.20.1-1.1
+Multi-Arch: foreign
+Priority: standard
+Section: web
+Maintainer: Noël Köthe <noel@debian.org>
+Installed-Size: 3257
+Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libidn2-0 (>= 0.6), libnettle6, libpcre2-8-0 (>= 10.32), libpsl5 (>= 0.16.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
+Recommends: ca-certificates
+Conflicts: wget-ssl
+Filename: ./w/wget/wget_1.20.1-1.1_amd64.deb
+Size: 902252
+MD5sum: 0617dca7bc8d900c5d5d30f738db674b
+SHA1: 4685354cbd2470a8b2896e93477223e33f92f2a2
+SHA256: c51cb3a77ce78bced8455df72d203fa6f7cc107fa34b36180c8300a0a7a7937a
+SHA512: 5389e3cb2907d59ab8a81e7f340dec46791ed7e8ef122d5694078ccb807833c1aac43ff6ab624d9c812ece1d32befdbdb5ba2eada75e0b35a26c91486ef68f9e
+Homepage: https://www.gnu.org/software/wget/
+Description: retrieves files from the web
+ Wget is a network utility to retrieve files from the web
+ using HTTP(S) and FTP, the two most widely used internet
+ protocols. It works non-interactively, so it will work in
+ the background, after having logged off. The program supports
+ recursive retrieval of web-authoring pages as well as FTP
+ sites -- you can use Wget to make mirrors of archives and
+ home pages or to travel the web like a WWW robot.
+ .
+ Wget works particularly well with slow or unstable connections
+ by continuing to retrieve a document until the document is fully
+ downloaded. Re-getting files from where it left off works on
+ servers (both HTTP and FTP) that support it. Both HTTP and FTP
+ retrievals can be time stamped, so Wget can see if the remote
+ file has changed since the last retrieval and automatically
+ retrieve the new version if it has.
+ .
+ Wget supports proxy servers; this can lighten the network load,
+ speed up retrieval, and provide access behind firewalls.
+
