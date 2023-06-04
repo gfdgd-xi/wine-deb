@@ -1001,16 +1001,16 @@ Section: otherosfs
 Source: wine
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-Installed-Size: 250068
+Installed-Size: 645941
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libasound2 (>= 1.0.16), libc6 (>= 2.28), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libpulse0 (>= 0.99.1), libsane (>= 1.0.24), libudev1 (>= 183), libwayland-client0 (>= 1.11.0), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, libasound2-plugins, libncurses6 | libncurses5 | libncurses
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.28), libcapi20-3, libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpulse0 (>= 0.99.1), libsane (>= 1.0.24), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.21), libwayland-client0 (>= 1.11.0), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, libasound2-plugins, libncurses6 | libncurses5 | libncurses
 Recommends: libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
 Filename: ./w/wine-devel-i386/wine-devel-i386_8.9~focal-1_i386.deb
-Size: 27619040
-MD5sum: 40b51c24c04f80880dfc9c2a8a9da4e4
-SHA1: d460074cf752f646f7dfe1e0d6755bfdff0eff34
-SHA256: 82e9f3ba5efafaca99dbdb7cd1f98a042e788aa9ade722f7933edf6a55b5ead0
-SHA512: cf687d61f9660e88587d8e6a495aad7b4bb7fbc68b4e53b6b5a4c8cb41852946514f6999ada5a706fd2ac241ec629cc837dd4f2688b83e9382f3dd4dbeca2aff
+Size: 97122508
+MD5sum: f7215fab464d72058a7a2ceeaa13d7d6
+SHA1: fc155e418380d7b09dd704bb43b4239c9257df52
+SHA256: 8cdb3077658f2701e577cc069dc03c53695aab432dcd0b2afbc927b291d015c3
+SHA512: 5e6ab0996ba99a6e8f698e57ee83f419c717db930810eab4a8b916a0b6c6474811f4a87aebde2b6979bcfd85cc3cb9b8dc428f56e9b073abbb7ec2e3a11e0588
 Description: WINE Is Not An Emulator - runs MS Windows programs
  Wine is a program which allows running Microsoft Windows programs
  (including DOS, Windows 3.x and Win32 executables) on Unix.
@@ -1434,11 +1434,11 @@ Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.9~focal-1), wine-devel-amd64 (= 8.9~focal-1)
 Recommends: libcap2-bin
 Filename: ./w/wine-devel/wine-devel_8.9~focal-1_amd64.deb
-Size: 2148156
-MD5sum: 68601d63e0077d76cd5ab3fd054a8807
-SHA1: 22a260b196ff250ea5d794028b9099fc7ed6c56c
-SHA256: 21e81149ab2c66628b2e8851ec460a59170f98ec5d7b58d1a2ac60211a9ade00
-SHA512: 53171a2b92808c44ecf4b9aea5ffc6f2be42f20a5af99ae7b90787a285d97b29206e5e7929c3a24a5d73b43fc6aca85371f402039ec87907124acafdf1c865aa
+Size: 2141216
+MD5sum: 8e67d922c3be4e75509a4ee0a232d5f2
+SHA1: 633582de28cf15fe9d3a23b4f928c1640bd06a94
+SHA256: 53cbb08e4e6bfb97605897a66e76a6fe8bd173fa1b31803215c5bd647fdfdfdc
+SHA512: 133c5014c27068b7bb6c977bb32e150a143a39f6d4319daba188b00167c904772d7743ceeddcb8c09e0bf1720610731048741b95aef0527cbcbf7b4647b2a3ef
 Description: WINE Is Not An Emulator - runs MS Windows programs
  Wine is a program which allows running Microsoft Windows programs
  (including DOS, Windows 3.x and Win32 executables) on Unix. It
@@ -1617,16 +1617,16 @@ Section: otherosfs
 Source: wine
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-Installed-Size: 750039
+Installed-Size: 750015
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.25), libcapi20-3, libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpulse0 (>= 0.99.1), libsane (>= 1.0.24), libudev1 (>= 183), libunwind8, libusb-1.0-0 (>= 2:1.0.21), libwayland-client0 (>= 1.11.0), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, libasound2-plugins, libncurses6 | libncurses5 | libncurses
 Recommends: libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
 Filename: ./w/wine-devel-amd64/wine-devel-amd64_8.9~focal-1_amd64.deb
-Size: 102279256
-MD5sum: 2b7887bf054b30b07bf48d99fe0eea7a
-SHA1: 32544c2b94f20baea909af70d70957847f018174
-SHA256: 73c8c9757eb6908211c81e9e0b32de21fe716eabe19a21c317a03b8becd6ccad
-SHA512: bed93679b44cd8fe9545b2419f616e09dfd7958f1bf68037af49b65f14bb467b34afe6062358370dba7d9111156262ace6bbe6ab6592afbaa4eb4e5c16db2f06
+Size: 102282060
+MD5sum: bd816a85bff13feeed75d53c7b4cc49b
+SHA1: ab7e12b4ef157c401221915e3323871cb57ccfb7
+SHA256: 3363d2571702d921f85a2ba2434f70d63273a5a37b940345bc37f633f20fb1dd
+SHA512: f29253d1fd62f3053f28130c8eecefd8d39a43f7e127eedb29b8239ea0160195741402f5bfe0d8ec831226bd9db4d85e6b353d339c3af03df69203861b559c41
 Description: WINE Is Not An Emulator - runs MS Windows programs
  Wine is a program which allows running Microsoft Windows programs
  (including DOS, Windows 3.x and Win32 executables) on Unix.

@@ -12,11 +12,11 @@ Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.9~focal-1), wine-devel-amd64 (= 8.9~focal-1)
 Recommends: libcap2-bin
 Filename: ./w/wine-devel/wine-devel_8.9~focal-1_amd64.deb
-Size: 2148156
-MD5sum: 68601d63e0077d76cd5ab3fd054a8807
-SHA1: 22a260b196ff250ea5d794028b9099fc7ed6c56c
-SHA256: 21e81149ab2c66628b2e8851ec460a59170f98ec5d7b58d1a2ac60211a9ade00
-SHA512: 53171a2b92808c44ecf4b9aea5ffc6f2be42f20a5af99ae7b90787a285d97b29206e5e7929c3a24a5d73b43fc6aca85371f402039ec87907124acafdf1c865aa
+Size: 2141216
+MD5sum: 8e67d922c3be4e75509a4ee0a232d5f2
+SHA1: 633582de28cf15fe9d3a23b4f928c1640bd06a94
+SHA256: 53cbb08e4e6bfb97605897a66e76a6fe8bd173fa1b31803215c5bd647fdfdfdc
+SHA512: 133c5014c27068b7bb6c977bb32e150a143a39f6d4319daba188b00167c904772d7743ceeddcb8c09e0bf1720610731048741b95aef0527cbcbf7b4647b2a3ef
 Description: WINE Is Not An Emulator - runs MS Windows programs
  Wine is a program which allows running Microsoft Windows programs
  (including DOS, Windows 3.x and Win32 executables) on Unix. It
