@@ -14,19 +14,19 @@ for i in sysList[1:]:
     lists.append(os.path.basename(i))
 #if sys.argv[1] == "--github":
 #    exit()
-os.system(f"bash '{programPath}/incremental-updating-packages.sh' '{programPath}'")
-os.system("apt-ftparchive release . > Release")
-os.system("rm Release.gpg")
-os.system("rm InRelease")
-os.system("rm gpg.asc")
-if os.getenv("GPGPASSWORD") != "":
-    os.system("gpg --armor --detach-sign -o Release.gpg Release")
-    os.system("gpg --clearsign -o InRelease Release")
-    os.system("gpg --armor --output gpg.asc --export 3025613752@qq.com")
-else:
-    os.system("gpg --armor --detach-sign -o Release.gpg Release")
-    os.system("gpg --clearsign -o InRelease Release")
-    os.system("gpg --armor --output gpg.asc --export 3025613752@qq.com")
+#os.system(f"bash '{programPath}/incremental-updating-packages.sh' '{programPath}'")
+#os.system("apt-ftparchive release . > Release")
+#os.system("rm Release.gpg")
+#os.system("rm InRelease")
+#os.system("rm gpg.asc")
+#if os.getenv("GPGPASSWORD") != "":
+#    os.system("gpg --armor --detach-sign -o Release.gpg Release")
+#    os.system("gpg --clearsign -o InRelease Release")
+#    os.system("gpg --armor --output gpg.asc --export 3025613752@qq.com")
+#else:
+#    os.system("gpg --armor --detach-sign -o Release.gpg Release")
+#    os.system("gpg --clearsign -o InRelease Release")
+#    os.system("gpg --armor --output gpg.asc --export 3025613752@qq.com")
 #os.system(f"cd '{programPath}/../apt-packages-websize-program/' ; git add .")
 #os.system(f"cd '{programPath}/../apt-packages-websize-program/' ; git commit -m '新增 {lists} 个安装包'")
 #os.system(f"cd '{programPath}/../apt-packages-websize-program/' ; git push")
