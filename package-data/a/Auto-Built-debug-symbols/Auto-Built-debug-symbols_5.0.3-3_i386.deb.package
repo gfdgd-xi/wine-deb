@@ -1,0 +1,20 @@
+Package: wine32-tools-dbgsym
+Architecture: i386
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 958
+Depends: wine32-tools (= 5.0.3-3)
+Filename: ./a/Auto-Built-debug-symbols/Auto-Built-debug-symbols_5.0.3-3_i386.deb
+Size: 823896
+MD5sum: 2ddc885b76e74530e360109a01e0e3d1
+SHA1: 8d73cdd4cea3bf7db5800c0f539b1b2afc1a749d
+SHA256: 895d6cb10003a201200446a7ccb687eb50972b658e6bcd006a7beceb1458800e
+SHA512: dd752b87cf3704756d2297f1ad3fb80882cf12b1e57a3e4e2d51e71deaad2f1d292be34cd38ccd2a1a7e6ce2fdf30a370830b9ac3dc83bacd98045135541a217
+Description: debug symbols for wine32-tools
+Build-Ids: 0318af7d3cee6fe8c18bb830d79f1c93b11a1f95 90df4a7d4ff7938a0d29745ecb7f3820857de1e3 cce2a98fc89319712fc0743118a89e3f4f4769a8 d72baf319f7663e0054fad21fe91250cad38c959 fa95f73dba7b86f5fcec575c578df9646589ca51 ff5ee9d5f6c990660837690e97cea59cab688e4a
+

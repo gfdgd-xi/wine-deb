@@ -9,11 +9,11 @@ Source: wine
 Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
 Installed-Size: 917
 Filename: ./f/fonts-wine/fonts-wine_5.0.3-3_all.deb
-Size: 228452
-MD5sum: 1c6f44d0fd04a44558881f624d0ea85a
-SHA1: 0a6662d70e655d3958ea4e1eaf60ade4fbcd18d8
-SHA256: 82d4d5ade3b53a53ea6e7f432f40b63b46e73540f73372384bbcad8ad088c6c6
-SHA512: 7f6f57f49bc5842f1792891619ac83536ba99982d78bc7346cbc9ec9ada9c92b528dbec8bd6ce64822e25d8c91dd2d24636c7f8a95737911d0d6061a8272bbf9
+Size: 228852
+MD5sum: 3b9b07cafa2354d5883ad90143a954fa
+SHA1: 5dd30f8dc119b86408af488bac8ecc8c7bb95171
+SHA256: c7f4b1aecdd49d67f9538ce03fef054e48193c98614737896f48c81d63eedd7a
+SHA512: f8b8c7fd197cc95bd94f7ae308f4901354b44183b1f99067aaa2392ba5f7875cddd421587311faa78ec777bae9ed1915d3b4533f45b88801a8f9f4c3ee07ea88
 Homepage: https://www.winehq.org
 Description: Windows API implementation - fonts
  Wine is a free MS-Windows API implementation.

@@ -1,0 +1,27 @@
+Package: wine32-tools
+Architecture: i386
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: libdevel
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 4367
+Depends: gcc | gcc-multilib:amd64, perl:any, libc6 (>= 2.11), libgettextpo0, libwine-dev (= 5.0.3-3)
+Recommends: wine (= 5.0.3-3), g++ | g++-multilib:amd64
+Conflicts: wine64-tools
+Filename: ./w/wine32-tools/wine32-tools_5.0.3-3_i386.deb
+Size: 810208
+MD5sum: e9c17a6c192e80459bfbfcfb7081098e
+SHA1: 1118b4360b024b1de22c2deb499e43bf993ce5d7
+SHA256: 5be4edbe49275645ce86debd9b64af18cc3010a07fa4238ed890a573ad920ddf
+SHA512: abadbf7306fc95798f915371592af83cd51c798f2cbd3419759b23c76fc3749546f2e1294a128bf0516343adcfeb967f7ccaad78cf0dc0c0c8c426f4d860211c
+Homepage: https://www.winehq.org
+Description: Windows API implementation - 32-bit developer tools
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides Wine's 32-bit developer tools. They are capable of
+ generating 32-bit results.
+
