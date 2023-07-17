@@ -1,0 +1,19 @@
+Package: q4wine-dbgsym
+Architecture: amd64
+Version: 1.3.13-1
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: q4wine
+Maintainer: Boris Pek <tehnick@debian.org>
+Installed-Size: 9787
+Depends: q4wine (= 1.3.13-1)
+Filename: ./a/Auto-Built-debug-symbols/Auto-Built-debug-symbols_1.3.13-1_amd64.deb
+Size: 9485352
+MD5sum: 3f87cb889be645d476ce956736d766a5
+SHA1: 957e3f12ff7097623daff6dce480b7b131491e98
+SHA256: a5ee5b0556d56f3f504aae25b61b3564b80ee5a4be37da99780d91307bdf805b
+SHA512: b074f92986017477a65ea84166c36016b7777794951032ff6ecd43ab8a2389bc31fa690c61cec49b32416572ef00f10f6ce5762fc8ee3787b9cf4b70dccdc9cb
+Description: debug symbols for q4wine
+Build-Ids: 0056746f99b05196a420a5fd9d9e108c4115a7b7 7d4798081583bef31f56ffe6cac123b34e9f3f83 cd3e2cc2fc548065c440347b98fd08f2c4be1c99 f06bc1bc9d345c3f7e6fa7d0c2a1b3aaf50f80ef
+

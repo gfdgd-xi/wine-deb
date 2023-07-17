@@ -1,0 +1,23 @@
+Package: fonts-wine
+Architecture: all
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: fonts
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 917
+Filename: ./f/fonts-wine/fonts-wine_5.0.3-3_all.deb
+Size: 228452
+MD5sum: 1c6f44d0fd04a44558881f624d0ea85a
+SHA1: 0a6662d70e655d3958ea4e1eaf60ade4fbcd18d8
+SHA256: 82d4d5ade3b53a53ea6e7f432f40b63b46e73540f73372384bbcad8ad088c6c6
+SHA512: 7f6f57f49bc5842f1792891619ac83536ba99982d78bc7346cbc9ec9ada9c92b528dbec8bd6ce64822e25d8c91dd2d24636c7f8a95737911d0d6061a8272bbf9
+Homepage: https://www.winehq.org
+Description: Windows API implementation - fonts
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides the fonts used by Wine.
+
