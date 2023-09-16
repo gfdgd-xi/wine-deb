@@ -1,0 +1,19 @@
+Package: deepin-wine-plugin-virtual
+Architecture: all
+Version: 5.1.13-1
+Multi-Arch: foreign
+Priority: extra
+Section: non-free/otherosfs
+Source: deepin-wine-helper
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 9
+Depends: zenity, deepin-wine-plugin, p7zip-full, fonts-noto-cjk
+Filename: ./d/deepin-wine-plugin-virtual/deepin-wine-plugin-virtual_5.1.13-1_all.deb
+Size: 2144
+MD5sum: c64962273b2c725aff4a7ab219a1fd5b
+SHA1: 613774cbfe5e5f7c7368f1098be658da2fc8a099
+SHA256: e4bc0b5d71227d1686170b83f830135412d623c7be7fe6cf76a1de21fac9f1b7
+SHA512: 89c1b07ac23a5e3bf2fe899cc7dfc998c30a0fed1cd96bf1ef09ebfe1ab9f1b19f1c7560307c7b0b2e3520c92bab8850f2cd1fd939bd99b0bd2236fcdab2e784
+Homepage: http://www.linuxdeepin.com/
+Description: Deepin Wine plugin virtual package
+

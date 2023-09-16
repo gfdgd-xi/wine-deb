@@ -1,0 +1,19 @@
+Package: spark-box86
+Architecture: arm64
+Version: 0.3.1-spark2
+Priority: extra
+Section: checkinstall
+Maintainer: root@af3541e5398b
+Installed-Size: 11976
+Provides: com.box86.deepin, box86(=0.3.1+20230409.1524e88-1), com.deepin-box86.deepin(=0.3.1+20230409.1524e88-1),com.deepin-box86.deepin:armhf(=0.3.1+20230409.1524e88-1),com.deepin-box86.deepin:all(=0.3.1+20230409.1524e88-1)
+Conflicts: qemu-user-static, com.box86.deepin, com.deepin-box86.deepin
+Replaces: com.box86.deepin, com.deepin-box86.deepin
+Filename: ./s/spark-box86/spark-box86_0.3.1-spark2_arm64.deb
+Size: 79364144
+MD5sum: 062ecc4b185e0e8b7a9b7a03d7c36dbc
+SHA1: b098a0e7d728a8984f354d295690e3ec4af9e2fc
+SHA256: 2dd163e0f2d685e879c1de62a8df21a577cbb1f40c2e46d461d75ef13c7f3595
+SHA512: 6d416a293b72bf438cb1945ab76088d2d2220da7921a826d619f7a0c862995ef119326eed0c9463bda2c30572e7b157f90386e25429ee9c72218f5731636111e
+Description: Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+ Box86 lets you run x86 Linux programs (such as games) on non-x86 Linux systems, like ARM (host system needs to be 32bit little-endian)
+

@@ -1,0 +1,27 @@
+Package: wine-devel
+Architecture: amd64
+Version: 8.14~focal-1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: wine
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 13372
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.14~focal-1), wine-devel-amd64 (= 8.14~focal-1)
+Recommends: libcap2-bin
+Filename: ./w/wine-devel/wine-devel_8.14~focal-1_amd64.deb
+Size: 2153180
+MD5sum: 129fb6211ed2df5267e2225ff809648d
+SHA1: f2122345724d7488a9a83c0ddde9e8b8fae14a30
+SHA256: 76c9c55e9d4c0ffffa56697b25b4f0d9ba2418d16ae0f2d872c8816dc0cbc424
+SHA512: e94fc4a632e1f73064c5c360206fee87103703145987ef0ca91a74671edeedb4459bb132b28295f05e26b47f83a20bd1ae588c7f61bf63b9228eea1d2ca20fd0
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+

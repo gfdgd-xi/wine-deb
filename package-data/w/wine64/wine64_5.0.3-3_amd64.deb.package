@@ -1,0 +1,26 @@
+Package: wine64
+Architecture: amd64
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 730
+Depends: libc6 (>= 2.17), libwine (= 5.0.3-3)
+Recommends: wine (= 5.0.3-3), wine32 (= 5.0.3-3)
+Suggests: wine64-preloader (= 5.0.3-3)
+Filename: ./w/wine64/wine64_5.0.3-3_amd64.deb
+Size: 298820
+MD5sum: 2b39c806164a74618ca50eccbe954605
+SHA1: 8ee42cd61bb473bc64757ce4b99dca7bf2160ee7
+SHA256: 477e2b805d8d1bc6d6b968821a40084e9bde59824751e4595a02eba3a6556ec9
+SHA512: 6ef8d605c3feb8fd261b3a824d23471286470118bb5f44331b582ee13c04ddf50fbce7153f04b5a1b215aeee07a42a36b417f4e5b82884f65869bbcd1e1602f0
+Homepage: https://www.winehq.org
+Description: Windows API implementation - 64-bit binary loader
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides the binary loader for 64-bit Windows applications.
+

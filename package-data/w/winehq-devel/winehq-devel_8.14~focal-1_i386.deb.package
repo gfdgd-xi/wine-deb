@@ -1,0 +1,26 @@
+Package: winehq-devel
+Architecture: i386
+Version: 8.14~focal-1
+Priority: optional
+Section: otherosfs
+Source: wine
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 71
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
+Depends: wine-devel (= 8.14~focal-1)
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./w/winehq-devel/winehq-devel_8.14~focal-1_i386.deb
+Size: 1920
+MD5sum: 1e323248054e5fa2d181b5612cc7de9c
+SHA1: 5c088bb7d03612084bea1f7fc79c44ee7dfbdc99
+SHA256: a8b6e99d9722767d8ac55da0da93208cfc31907a092f42ee31096d6f27ae2439
+SHA512: 7c36ff0d1be90d01873334f257709b9510849d78ad713fc6378db449fc8d59aa2ae2e79a5331e639a1fde5a21583fc32155bb73441a1c2fb332bc0e32fb16a8b
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This compatibility package allows to use wine-devel system-wide as
+ the default Wine version.
+

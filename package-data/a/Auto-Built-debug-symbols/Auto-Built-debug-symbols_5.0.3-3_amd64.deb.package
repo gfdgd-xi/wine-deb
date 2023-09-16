@@ -1,0 +1,20 @@
+Package: wine64-tools-dbgsym
+Architecture: amd64
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 979
+Depends: wine64-tools (= 5.0.3-3)
+Filename: ./a/Auto-Built-debug-symbols/Auto-Built-debug-symbols_5.0.3-3_amd64.deb
+Size: 842424
+MD5sum: 0664e1eb81d23275d0c2ec7fef337b4b
+SHA1: 3a1b3701b4cb86b722496cae2524c503f835aa0e
+SHA256: 9ea2fb96ef47d650e815a2261fb93bc2b2081c7d5e2a7f568c413d63303a7555
+SHA512: dc7e0faa66c68502db1b70cde639390ebca4879d44e05f2194cc7b63a0c7d54b16fc4a4d4deca398cf095f590731084b3930b721b2d6edadbbaf3bddc731d6aa
+Description: debug symbols for wine64-tools
+Build-Ids: 1a500b6bdc1f79e28d980e9e423586f1ee996450 5402bd5921e2aa1d1816461c97f2a7c127e0610a 5d2fb33f7d82491fb63be8da3d3e2a877dbe5011 bcc369c804d2d94aae9b76a3336738028468dfd5 f4656570b92b473a911aeb16673f569733d0cb37 fd476da2ecbf86cfb91d64f79e3e39c6b69e4dfb
+

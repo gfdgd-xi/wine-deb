@@ -1,0 +1,27 @@
+Package: spark-wine7-devel
+Architecture: amd64
+Version: 7.17~spark-1
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: wine
+Maintainer: RX6900XT <QQ482961502@gmail.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 13308
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), spark-wine7-devel-i386 (= 7.17~spark-1), spark-wine7-devel-amd64 (= 7.17~spark-1), spark-winehq7-devel (= 7.17~spark-1), spark-dwine-helper
+Recommends: libcap2-bin
+Filename: ./s/spark-wine7-devel/spark-wine7-devel_7.17~spark-1_amd64.deb
+Size: 29384320
+MD5sum: 7c5f04c4c288ac2b9a75530fa4f65fb1
+SHA1: 1d764546f3d03ecd0b5985ff2ec49caaaf874a3d
+SHA256: 6dc487529fe58ef168835c3ab3992eb61117f8f02450f6bbcd8910c8390dedf1
+SHA512: db87cd6d573cc358de2a1c9dd7c2c8922568958bbe7d8ae1e07872822a8cb195bb0c1644fe894816d2d58282c8ae91996235a5ceceac5919ea88a243ed2df513
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+

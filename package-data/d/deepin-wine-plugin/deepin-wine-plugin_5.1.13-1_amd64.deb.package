@@ -1,0 +1,19 @@
+Package: deepin-wine-plugin
+Architecture: amd64
+Version: 5.1.13-1
+Multi-Arch: foreign
+Priority: extra
+Section: non-free/otherosfs
+Source: deepin-wine-helper
+Maintainer: Cui Jiajin <cuijiajin@uniontech.com>
+Installed-Size: 27
+Depends: libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.16.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libx11-6
+Filename: ./d/deepin-wine-plugin/deepin-wine-plugin_5.1.13-1_amd64.deb
+Size: 5904
+MD5sum: 18bce5ae4303e4f437f6da10ef908c22
+SHA1: efdf37440626146c3cf74e10402b740790ccb0be
+SHA256: 6b981e3c322d9a768573f6e1cd2c46e2d052807ed3eaba45ad886d3280dc5a90
+SHA512: 6a7c036a830b42c78c0cbbe903a2d4ebac10460331481f8cd0d46053a1a25c5e84cc318c18898649e9ea9b27afdb014b639b4904705a07442c587f32847a7824
+Homepage: http://www.linuxdeepin.com/
+Description: Deepin Wine plugin
+

@@ -1,0 +1,25 @@
+Package: libwine-dev
+Architecture: i386
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 43811
+Depends: libwine (= 5.0.3-3), libc6-dev | libc6.1-dev | libc0.3-dev | libc0.1-dev | libc-dev
+Recommends: wine64-tools (= 5.0.3-3) | wine32-tools (= 5.0.3-3)
+Filename: ./l/libwine-dev/libwine-dev_5.0.3-3_i386.deb
+Size: 3378144
+MD5sum: 07eac32f3504b5383f2589e0c0463512
+SHA1: 610968ee4a734115fb140b0e24375358d513819d
+SHA256: 246225ee309eb2e79731627385b3f593b977a366f7f13bfbbbfebedf2ba4e79f
+SHA512: ec24637695f716ee8a365c8456472152aca42fd43a0e15a6ad83448c40c80805bf7bf502fb182776220c5b78e80811fd760dffb5137e4f82d3d60c0b89b8f379
+Homepage: https://www.winehq.org
+Description: Windows API implementation - development files
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides Wine's C header files and development libraries.
+

@@ -1,0 +1,24 @@
+Package: wine32-preloader
+Architecture: i386
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: wine
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 121
+Depends: wine32 (= 5.0.3-3)
+Filename: ./w/wine32-preloader/wine32-preloader_5.0.3-3_i386.deb
+Size: 92852
+MD5sum: 0855ffe5358faac2485927ccfda82270
+SHA1: 92f4b855b4c33f90c9ea115a3ff7f5f092bf1c04
+SHA256: 2f671dc1aec8d6ea2f99d52acf889e41ae39374142d8b6ecc402ac8eae62d87a
+SHA512: c44d75d9216d6cd72d76b1fa97e65b8e4b861ba01219e4aec07bc2ea36ab1204692521740cd4262578808d82f64a164cfb8d96756be55dc15ae9d42fef8f8184
+Homepage: https://www.winehq.org
+Description: Windows API implementation - prelinked 32-bit binary loader
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides the prelinked loader for 32-bit Windows applications.
+

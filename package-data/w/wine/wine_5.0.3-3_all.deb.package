@@ -1,0 +1,29 @@
+Package: wine
+Architecture: all
+Version: 5.0.3-3
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 191
+Provides: wine
+Depends: wine64 (>= 5.0.3-3) | wine32 (>= 5.0.3-3), wine64 (<< 5.0.3-3.1~) | wine32 (<< 5.0.3-3.1~)
+Suggests: q4wine, winbind, winetricks, playonlinux, wine-binfmt, dosbox (>= 0.74-4.2~), exe-thumbnailer | kio-extras
+Breaks: wine-stable (<< 3.0.1ubuntu1~)
+Replaces: wine-stable (<< 3.0.1ubuntu1~)
+Filename: ./w/wine/wine_5.0.3-3_all.deb
+Size: 135876
+MD5sum: f2823a6878d80e2be5a90551db2998ef
+SHA1: a2633b07a444bf3e158580afbea80994be021829
+SHA256: 91de63c3560125e54e5f9c06cf0f573b41b440f84ad07e9ee4190930a132b807
+SHA512: c3a250087d3a3b6076a4848aa373dcc0c6c0c0fa548becdc96b4f2bdeefe1cb677d2fbec04b7d5392440ce09e8d37b54cc52e368d9f5219630614ee2f1f54590
+Homepage: https://www.winehq.org
+Description: Windows API implementation - standard suite
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides essential wrappers and convenience tools for the
+ standard Wine components. It also employs the Debian alternatives system to
+ provide the usual command names, e.g. "wine" instead of "wine-stable".
+

@@ -1,0 +1,21 @@
+Package: wine-ce
+Architecture: arm64
+Version: 8.14-1
+Priority: optional
+Section: misc
+Maintainer: Bo YU <tsu.yubo@gmail.com>
+Installed-Size: 657849
+Depends: libasound2 (>= 1.0.16), libc6 (>= 2.35), libcapi20-3, libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpcap0.8 (>= 1.10.0), libpcsclite1 (>= 1.3.3), libpulse0 (>= 0.99.1), libsane1 (>= 1.0.27), libudev1 (>= 183), libunwind8, libusb-1.0-0 (>= 2:1.0.21), libwayland-client0 (>= 1.20.0), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, fonts-liberation, fonts-wine, glib-networking, gstreamer1.0-plugins-good, gstreamer1.0-x, libaom3, libasound2-plugins, libcodec2-1.0, libgomp1, libjack-jackd2-0, libodbc2, libproxy1v5, librsvg2-2, librsvg2-common, libshine3, libsnappy1v5, libsoup2.4-1, libsoxr0, libva-drm2, libva-x11-2, libva2, libvdpau1, libvkd3d1, libwebpmux3, libx265-199, libxdamage1, libxvidcore4, libzvbi0, va-driver-all, vdpau-driver-all
+Filename: ./w/wine-ce/wine-ce_8.14-1_arm64.deb
+Size: 97116246
+MD5sum: c0ffe949ceda55be6d87dd6a8deb1f0a
+SHA1: fa62ee80ef6b7bf284c2fd52d757559cdbb693d7
+SHA256: b23f703b8b62785256e94c11104ee0bcea7596e340a7e6675f6a60c8f623d0fd
+SHA512: b88c410b3a95d9986f5c88d3efbbc3fc2e1fb445591cfe5acb25aa71a1eacbe05f367e1eb133683625ad52c0b3908105f414e982a6c0cf59b2f9c2f7cb89b9d4
+Homepage: https://gitee.com/wine-ce/wine-ce
+Description: Wine-CE for running Windows app on Linux
+ Wine-CE (Chimera Edition, Cross-architecture Emulator)
+ is a compatibility layer capable of running Windows
+ applications on Cross-architecture paltform of Linux.
+ It is base on Wine Project and Qemu Project.
+

@@ -1,0 +1,24 @@
+Package: wine-devel-dev
+Architecture: i386
+Version: 8.14~focal-1
+Priority: optional
+Section: libdevel
+Source: wine
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+Installed-Size: 46488
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6-dev, wine-devel-i386 (= 8.14~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.14~focal-1_i386.deb
+Size: 3654416
+MD5sum: 251505cce5d456a95b0cdac7c0fae0e8
+SHA1: 67cf50cc4121f3b2aa708aa35937e5aeb4bc093c
+SHA256: 1109bc6dfcac7270424511afd810d1207f4836193c862a0780e4fa5d4419df70
+SHA512: 6a21e3ecbe37488a0424163efdcd658ec04626ab6b54ec79c999b6f6e3c351fdbc5959320b6e36a70b7f102875266ee90eaf196cb9c502270bbacbeac0d5fb8a
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the libraries and header files needed to
+ develop programs which make use of Wine.
+

@@ -1,0 +1,27 @@
+Package: deepin-wine32
+Architecture: i386
+Version: 2.18-24~rc3
+Built-Using: khronos-api (= 0~svn29735-1.1), unicode-data (= 9.0-1)
+Multi-Arch: foreign
+Priority: optional
+Section: otherosfs
+Source: deepin-wine
+Maintainer: Debian Wine Party <pkg-wine-party@lists.alioth.debian.org>
+Installed-Size: 107
+Depends: deepin-libwine (= 2.18-24~rc3), libc6 (>= 2.3.6-6~), x11-utils, libgl1-mesa-dri, libasound2-plugins
+Recommends: deepin-wine (= 2.18-24~rc3), libwine-gecko-2.40
+Suggests: deepin-wine32-preloader (= 2.18-24~rc3)
+Breaks: deepin-wine (<< 1.7.50-3~), wine32deepin--preloader (<< 1.7.51-2~)
+Filename: ./d/deepin-wine32/deepin-wine32_2.18-24~rc3_i386.deb
+Size: 81594
+MD5sum: 4eca104d0f13e800ff0b239fa8b1ea3b
+SHA1: f879a24ab0fa187e916e075542def57fff2bf8bf
+SHA256: 277d5164bf7c8ce13e7314737a860c281df17b9d9b4dae317f74c6f5d6fd23c6
+SHA512: 01461d1d24b861d3357fadbe0278dc6e74068898bdfb5aaa9b61103a6d657ea46a370b8945fe31e0578c4783b2f45201ae616ca503753f7ab7a7ccdf4a35c83a
+Homepage: http://www.winehq.org/
+Description: Windows API implementation - 32-bit binary loader
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides the binary loader for 32-bit Windows applications.
+
