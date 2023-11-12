@@ -2322,10 +2322,10 @@ Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.25), libcapi20-3, libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpulse0 (>= 0.99.1), libsane (>= 1.0.24), libudev1 (>= 183), libunwind8, libusb-1.0-0 (>= 2:1.0.21), libwayland-client0 (>= 1.11.0), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, libasound2-plugins, libncurses6 | libncurses5 | libncurses
 Recommends: libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libjpeg62-turbo | libjpeg8, libkrb5-3, libodbc2 | libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
 Filename: ./w/wine-devel-amd64/wine-devel-amd64_8.19~focal-1_amd64.deb
-Size: 101878972
-MD5sum: 6fda613253e4bbcaf7c78aa36f384086
-SHA1: d491d49284b4117df4943693bafa5f7f2ddce98f
-SHA256: c650d6e6c2838a195cac76d931d514060163a0d5ed95ff169b6eef576c3edfe6
+Size: 101876284
+MD5sum: 4ef98a1eabb198f5d7e2d8562d60f36b
+SHA1: 18500528e73f4524d1ca4e3fab2da7a30c481133
+SHA256: c97f205b79f4771a1ebbb2901226a6043df96a0cdb46b6f2476ddecce7157acd
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -3295,10 +3295,10 @@ Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: libasound2 (>= 1.0.16), libc6 (>= 2.28), libcapi20-3, libglib2.0-0 (>= 2.37.3), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), libpulse0 (>= 0.99.1), libsane (>= 1.0.24), libudev1 (>= 183), libusb-1.0-0 (>= 2:1.0.21), libwayland-client0 (>= 1.11.0), libx11-6, libxext6, ocl-icd-libopencl1 | libopencl1, ocl-icd-libopencl1 (>= 1.0) | libopencl-1.2-1, libasound2-plugins, libncurses6 | libncurses5 | libncurses
 Recommends: libcap2-bin, libcups2, libdbus-1-3, libfontconfig1, libfreetype6, libglu1-mesa | libglu1, libgnutls30 | libgnutls28 | libgnutls26, libgssapi-krb5-2, libkrb5-3, libodbc2 | libodbc1, libosmesa6, libsdl2-2.0-0, libv4l-0, libxcomposite1, libxcursor1, libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxxf86vm1
 Filename: ./w/wine-devel-i386/wine-devel-i386_8.19~focal-1_i386.deb
-Size: 94171844
-MD5sum: 9044562de2633a4b0a618c6ba74265f0
-SHA1: da18474f871434b975b76c839baccd04375cbcb6
-SHA256: eee002116663ca89334197770442d980363b559d62e3c87a0a2eb1623d89f1e1
+Size: 94165132
+MD5sum: 830316430b3a8b9f43c1bb06f69ed3cd
+SHA1: cda2557f1fbdba9c9be25dbe27eaf01a53aa1ecb
+SHA256: cfaf593426d30ed0dc5a52949bdd8913f5e9b861eed8805caea1f81438e58faa
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
