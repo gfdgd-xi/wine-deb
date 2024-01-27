@@ -499,18 +499,18 @@ Description: ISDN utilities - CAPI support libraries
 Package: libjpeg62-turbo
 Source: libjpeg-turbo
 Version: 1:1.5.2.6-1+dde
-Architecture: amd64
+Architecture: i386
 Maintainer: Ondřej Surý <ondrej@debian.org>
-Installed-Size: 475
-Depends: libc6 (>= 2.14)
+Installed-Size: 503
+Depends: libc6 (>= 2.7)
 Conflicts: libjpeg62
 Replaces: libjpeg62
 Provides: libjpeg62 (= 1:1.5.2.6-1+dde)
-Filename: ./l/libjpeg62-turbo/libjpeg62-turbo_1:1.5.2.6-1+dde_amd64.deb
-Size: 133596
-MD5sum: 16e7563a05cd2bb21b653280542dd916
-SHA1: 90121c61acd65d82125f6c64f7a67b947ff8a588
-SHA256: 56b0e83b71f3934b37aff903d5a8dd746423e98530d0d1d1ef387706423e40cd
+Filename: ./l/libjpeg62-turbo/libjpeg62-turbo_1:1.5.2.6-1+dde_i386.deb
+Size: 142736
+MD5sum: 767e04bf2cf703c94a603be8d87d37ef
+SHA1: 98e8e735ec0a2aacc36ad0899a4dffce3283c20c
+SHA256: 1bb6f2f7a86f2b825b781adab81e5f299ede19b955d8a438fcf9a360d35a7494
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -528,18 +528,18 @@ Description: libjpeg-turbo JPEG runtime library
 Package: libjpeg62-turbo
 Source: libjpeg-turbo
 Version: 1:1.5.2.6-1+dde
-Architecture: i386
+Architecture: amd64
 Maintainer: Ondřej Surý <ondrej@debian.org>
-Installed-Size: 503
-Depends: libc6 (>= 2.7)
+Installed-Size: 475
+Depends: libc6 (>= 2.14)
 Conflicts: libjpeg62
 Replaces: libjpeg62
 Provides: libjpeg62 (= 1:1.5.2.6-1+dde)
-Filename: ./l/libjpeg62-turbo/libjpeg62-turbo_1:1.5.2.6-1+dde_i386.deb
-Size: 142736
-MD5sum: 767e04bf2cf703c94a603be8d87d37ef
-SHA1: 98e8e735ec0a2aacc36ad0899a4dffce3283c20c
-SHA256: 1bb6f2f7a86f2b825b781adab81e5f299ede19b955d8a438fcf9a360d35a7494
+Filename: ./l/libjpeg62-turbo/libjpeg62-turbo_1:1.5.2.6-1+dde_amd64.deb
+Size: 133596
+MD5sum: 16e7563a05cd2bb21b653280542dd916
+SHA1: 90121c61acd65d82125f6c64f7a67b947ff8a588
+SHA256: 56b0e83b71f3934b37aff903d5a8dd746423e98530d0d1d1ef387706423e40cd
 Section: libs
 Priority: optional
 Multi-Arch: same
@@ -601,33 +601,6 @@ Description: OpenLDAP libraries
 Package: libwine
 Source: wine
 Version: 5.0.3-3
-Architecture: i386
-Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
-Installed-Size: 223793
-Depends: libc6 (>= 2.28), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6.2), libncurses6 (>= 6), libtinfo6 (>= 6), libasound2 (>= 1.0.16), libglib2.0-0 (>= 2.12.0), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.13.7), libopenal1 (>= 1.14), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libvkd3d1 (>= 1.0), libx11-6, libxext6, libxml2 (>= 2.9.0), ocl-icd-libopencl1 | libopencl1, zlib1g (>= 1:1.1.4)
-Recommends: libcapi20-3, libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.9.14), libgl1, libglu1-mesa | libglu1, libgnutls30 (>= 3.6.5), libgsm1 (>= 1.0.18), libgssapi-krb5-2 (>= 1.6.dfsg.2), libjpeg62-turbo (>= 1.3.1), libkrb5-3 (>= 1.6.dfsg.2), libodbc1 (>= 2.3.1), libosmesa6 (>= 10.2~), libpng16-16 (>= 1.6.2-1), libsane (>= 1.0.24), libsdl2-2.0-0 (>= 2.0.9), libtiff5 (>= 4.0.3), libv4l-0 (>= 0.5.0), libvulkan1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxxf86vm1, libgl1-mesa-dri, libasound2-plugins, fonts-liberation, fonts-wine (>= 1.8.2-1~), gstreamer1.0-plugins-good
-Suggests: cups-bsd, gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, ttf-mscorefonts-installer
-Breaks: wine32 (<< 4.7-2~), wine64 (<< 4.7-2~)
-Replaces: wine32 (<< 4.7-2~), wine64 (<< 4.7-2~)
-Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
-Filename: ./l/libwine/libwine_5.0.3-3_i386.deb
-Size: 24306460
-MD5sum: 2dafde86013721e4a63e26885c7448d8
-SHA1: aafcbe66d2a9df0bf2419698d371edf32c8e9c10
-SHA256: 063ea50065b29432da7a9dc4350b352a44baa390e5b679810bfb51db4172fed7
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://www.winehq.org
-Description: Windows API implementation - library
- Wine is a free MS-Windows API implementation.
- This is still a work in progress and many applications may still not work.
- .
- This package provides the Wine library.
-
-Package: libwine
-Source: wine
-Version: 5.0.3-3
 Architecture: amd64
 Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
 Installed-Size: 221015
@@ -652,29 +625,32 @@ Description: Windows API implementation - library
  .
  This package provides the Wine library.
 
-Package: libwine-dev
+Package: libwine
 Source: wine
 Version: 5.0.3-3
-Architecture: amd64
+Architecture: i386
 Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
-Installed-Size: 46829
-Depends: libwine (= 5.0.3-3), libc6-dev | libc6.1-dev | libc0.3-dev | libc0.1-dev | libc-dev
-Recommends: wine64-tools (= 5.0.3-3) | wine32-tools (= 5.0.3-3)
+Installed-Size: 223793
+Depends: libc6 (>= 2.28), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.6.2), libncurses6 (>= 6), libtinfo6 (>= 6), libasound2 (>= 1.0.16), libglib2.0-0 (>= 2.12.0), libgphoto2-6 (>= 2.5.10), libgphoto2-port12 (>= 2.5.10), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmpg123-0 (>= 1.13.7), libopenal1 (>= 1.14), libpcap0.8 (>= 0.9.8), libpulse0 (>= 0.99.1), libudev1 (>= 183), libvkd3d1 (>= 1.0), libx11-6, libxext6, libxml2 (>= 2.9.0), ocl-icd-libopencl1 | libopencl1, zlib1g (>= 1:1.1.4)
+Recommends: libcapi20-3, libcups2 (>= 1.4.0), libdbus-1-3 (>= 1.9.14), libgl1, libglu1-mesa | libglu1, libgnutls30 (>= 3.6.5), libgsm1 (>= 1.0.18), libgssapi-krb5-2 (>= 1.6.dfsg.2), libjpeg62-turbo (>= 1.3.1), libkrb5-3 (>= 1.6.dfsg.2), libodbc1 (>= 2.3.1), libosmesa6 (>= 10.2~), libpng16-16 (>= 1.6.2-1), libsane (>= 1.0.24), libsdl2-2.0-0 (>= 2.0.9), libtiff5 (>= 4.0.3), libv4l-0 (>= 0.5.0), libvulkan1, libxcomposite1 (>= 1:0.3-1), libxcursor1 (>> 1.1.2), libxfixes3, libxi6, libxinerama1, libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxxf86vm1, libgl1-mesa-dri, libasound2-plugins, fonts-liberation, fonts-wine (>= 1.8.2-1~), gstreamer1.0-plugins-good
+Suggests: cups-bsd, gstreamer1.0-libav, gstreamer1.0-plugins-bad, gstreamer1.0-plugins-ugly, ttf-mscorefonts-installer
+Breaks: wine32 (<< 4.7-2~), wine64 (<< 4.7-2~)
+Replaces: wine32 (<< 4.7-2~), wine64 (<< 4.7-2~)
 Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
-Filename: ./l/libwine-dev/libwine-dev_5.0.3-3_amd64.deb
-Size: 3363944
-MD5sum: 98ab157efebde190ee2138c52ff59de4
-SHA1: 7137fac47610ad630894076270f53a9670d52f3f
-SHA256: 367a7075806905c45e863c13096120245d5133fd8ceb0ad9e2a615bb4379d1bb
-Section: libdevel
+Filename: ./l/libwine/libwine_5.0.3-3_i386.deb
+Size: 24306460
+MD5sum: 2dafde86013721e4a63e26885c7448d8
+SHA1: aafcbe66d2a9df0bf2419698d371edf32c8e9c10
+SHA256: 063ea50065b29432da7a9dc4350b352a44baa390e5b679810bfb51db4172fed7
+Section: libs
 Priority: optional
 Multi-Arch: same
 Homepage: https://www.winehq.org
-Description: Windows API implementation - development files
+Description: Windows API implementation - library
  Wine is a free MS-Windows API implementation.
  This is still a work in progress and many applications may still not work.
  .
- This package provides Wine's C header files and development libraries.
+ This package provides the Wine library.
 
 Package: libwine-dev
 Source: wine
@@ -690,6 +666,30 @@ Size: 3378144
 MD5sum: 07eac32f3504b5383f2589e0c0463512
 SHA1: 610968ee4a734115fb140b0e24375358d513819d
 SHA256: 246225ee309eb2e79731627385b3f593b977a366f7f13bfbbbfebedf2ba4e79f
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: https://www.winehq.org
+Description: Windows API implementation - development files
+ Wine is a free MS-Windows API implementation.
+ This is still a work in progress and many applications may still not work.
+ .
+ This package provides Wine's C header files and development libraries.
+
+Package: libwine-dev
+Source: wine
+Version: 5.0.3-3
+Architecture: amd64
+Maintainer: Debian Wine Party <debian-wine@lists.debian.org>
+Installed-Size: 46829
+Depends: libwine (= 5.0.3-3), libc6-dev | libc6.1-dev | libc0.3-dev | libc0.1-dev | libc-dev
+Recommends: wine64-tools (= 5.0.3-3) | wine32-tools (= 5.0.3-3)
+Built-Using: khronos-api (= 4.6+git20180514-1), unicode-data (= 12.1.0~pre1-2)
+Filename: ./l/libwine-dev/libwine-dev_5.0.3-3_amd64.deb
+Size: 3363944
+MD5sum: 98ab157efebde190ee2138c52ff59de4
+SHA1: 7137fac47610ad630894076270f53a9670d52f3f
+SHA256: 367a7075806905c45e863c13096120245d5133fd8ceb0ad9e2a615bb4379d1bb
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -818,24 +818,6 @@ Package: q4wine-dbgsym
 Source: q4wine
 Version: 1.3.13-1
 Auto-Built-Package: debug-symbols
-Architecture: i386
-Maintainer: Boris Pek <tehnick@debian.org>
-Installed-Size: 9828
-Depends: q4wine (= 1.3.13-1)
-Filename: ./a/Auto-Built-debug-symbols/Auto-Built-debug-symbols_1.3.13-1_i386.deb
-Size: 9624880
-MD5sum: 03cc83e287b1c0fd70584078a9a70757
-SHA1: 0db24d322bd44405bcc1419ed0330544ae256858
-SHA256: 11459f28ebc9c9902ff0f0d0e6ea40f676c82be9fde189a32ed1541d0a593068
-Section: debug
-Priority: optional
-Description: debug symbols for q4wine
-Build-Ids: 12cdc6e8ba28d332902a209778ab9bda58bc2bd2 46fed5d2875878c31d0629f1e77e9be45a481db6 4be437a990de2934f6772d7bbe3623289f68b19f 803dbcf0aab7224cae039ced3b50271848093d4b
-
-Package: q4wine-dbgsym
-Source: q4wine
-Version: 1.3.13-1
-Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Boris Pek <tehnick@debian.org>
 Installed-Size: 9787
@@ -849,6 +831,24 @@ Section: debug
 Priority: optional
 Description: debug symbols for q4wine
 Build-Ids: 0056746f99b05196a420a5fd9d9e108c4115a7b7 7d4798081583bef31f56ffe6cac123b34e9f3f83 cd3e2cc2fc548065c440347b98fd08f2c4be1c99 f06bc1bc9d345c3f7e6fa7d0c2a1b3aaf50f80ef
+
+Package: q4wine-dbgsym
+Source: q4wine
+Version: 1.3.13-1
+Auto-Built-Package: debug-symbols
+Architecture: i386
+Maintainer: Boris Pek <tehnick@debian.org>
+Installed-Size: 9828
+Depends: q4wine (= 1.3.13-1)
+Filename: ./a/Auto-Built-debug-symbols/Auto-Built-debug-symbols_1.3.13-1_i386.deb
+Size: 9624880
+MD5sum: 03cc83e287b1c0fd70584078a9a70757
+SHA1: 0db24d322bd44405bcc1419ed0330544ae256858
+SHA256: 11459f28ebc9c9902ff0f0d0e6ea40f676c82be9fde189a32ed1541d0a593068
+Section: debug
+Priority: optional
+Description: debug symbols for q4wine
+Build-Ids: 12cdc6e8ba28d332902a209778ab9bda58bc2bd2 46fed5d2875878c31d0629f1e77e9be45a481db6 4be437a990de2934f6772d7bbe3623289f68b19f 803dbcf0aab7224cae039ced3b50271848093d4b
 
 Package: spark-box86
 Version: 0.3.1-spark2
@@ -1200,23 +1200,6 @@ Description: make bash shell i18n. Can be used by source /opt/durapps/transhell/
 
 Package: udis86
 Version: 1.72-4
-Architecture: i386
-Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
-Installed-Size: 418
-Depends: libc6 (>= 2.7)
-Filename: ./u/udis86/udis86_1.72-4_i386.deb
-Size: 35116
-MD5sum: 806a74d3da003d34340296a985432774
-SHA1: ebf34cbb032f2ffaba5698cc2fc16d8eaddb3959
-SHA256: ec874ecdf12f95d634c038a4dd2915951aae09753f4baba50b2074d154e04374
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: http://udis86.sourceforge.net/
-Description: Disassembler Library for x86 and x86-64
-
-Package: udis86
-Version: 1.72-4
 Architecture: amd64
 Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
 Installed-Size: 418
@@ -1232,19 +1215,36 @@ Multi-Arch: same
 Homepage: http://udis86.sourceforge.net/
 Description: Disassembler Library for x86 and x86-64
 
+Package: udis86
+Version: 1.72-4
+Architecture: i386
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Installed-Size: 418
+Depends: libc6 (>= 2.7)
+Filename: ./u/udis86/udis86_1.72-4_i386.deb
+Size: 35116
+MD5sum: 806a74d3da003d34340296a985432774
+SHA1: ebf34cbb032f2ffaba5698cc2fc16d8eaddb3959
+SHA256: ec874ecdf12f95d634c038a4dd2915951aae09753f4baba50b2074d154e04374
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://udis86.sourceforge.net/
+Description: Disassembler Library for x86 and x86-64
+
 Package: wget
 Version: 1.20.1-1.1
-Architecture: i386
+Architecture: amd64
 Maintainer: Noël Köthe <noel@debian.org>
-Installed-Size: 3296
+Installed-Size: 3257
 Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libidn2-0 (>= 0.6), libnettle6, libpcre2-8-0 (>= 10.32), libpsl5 (>= 0.16.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Conflicts: wget-ssl
-Filename: ./w/wget/wget_1.20.1-1.1_i386.deb
-Size: 913688
-MD5sum: 3d7ed858eeab0243fe7741cb1e093951
-SHA1: 5accb3e44ff2b6f848bae3323c4df199cd3efb8c
-SHA256: 21c6903086bd6f7854324b65c495831fcb89060bff1c2f1345f8e55c93949298
+Filename: ./w/wget/wget_1.20.1-1.1_amd64.deb
+Size: 902252
+MD5sum: 0617dca7bc8d900c5d5d30f738db674b
+SHA1: 4685354cbd2470a8b2896e93477223e33f92f2a2
+SHA256: c51cb3a77ce78bced8455df72d203fa6f7cc107fa34b36180c8300a0a7a7937a
 Section: web
 Priority: standard
 Multi-Arch: foreign
@@ -1271,17 +1271,17 @@ Description: retrieves files from the web
 
 Package: wget
 Version: 1.20.1-1.1
-Architecture: amd64
+Architecture: i386
 Maintainer: Noël Köthe <noel@debian.org>
-Installed-Size: 3257
+Installed-Size: 3296
 Depends: libc6 (>= 2.28), libgnutls30 (>= 3.6.6), libidn2-0 (>= 0.6), libnettle6, libpcre2-8-0 (>= 10.32), libpsl5 (>= 0.16.0), libuuid1 (>= 2.16), zlib1g (>= 1:1.1.4)
 Recommends: ca-certificates
 Conflicts: wget-ssl
-Filename: ./w/wget/wget_1.20.1-1.1_amd64.deb
-Size: 902252
-MD5sum: 0617dca7bc8d900c5d5d30f738db674b
-SHA1: 4685354cbd2470a8b2896e93477223e33f92f2a2
-SHA256: c51cb3a77ce78bced8455df72d203fa6f7cc107fa34b36180c8300a0a7a7937a
+Filename: ./w/wget/wget_1.20.1-1.1_i386.deb
+Size: 913688
+MD5sum: 3d7ed858eeab0243fe7741cb1e093951
+SHA1: 5accb3e44ff2b6f848bae3323c4df199cd3efb8c
+SHA256: 21c6903086bd6f7854324b65c495831fcb89060bff1c2f1345f8e55c93949298
 Section: web
 Priority: standard
 Multi-Arch: foreign
@@ -1389,32 +1389,6 @@ Description: Wine-CE for running Windows app on Linux
 Package: wine-devel
 Source: wine
 Version: 7.22~focal-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13312
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 7.22~focal-1), wine-devel-amd64 (= 7.22~focal-1)
-Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_7.22~focal-1_amd64.deb
-Size: 2146536
-MD5sum: 320306169412fda7e760cf5cff9d46de
-SHA1: ba7f0e9e7d3816a555c3f62ae2a655fdd04206b9
-SHA256: e039d152ec995ab780e168322685f7427a7a7152fbdb96daeefc0a4fa0c48052
-Section: otherosfs
-Priority: optional
-Multi-Arch: foreign
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix. It
- consists of a program loader which loads and executes a Microsoft
- Windows binary, and a library (called Winelib) that implements Windows
- API calls using their Unix or X11 equivalents.  The library may also
- be used for porting Win32 code into native Unix executables.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: wine-devel
-Source: wine
-Version: 7.22~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 13252
@@ -1440,18 +1414,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wine-devel
 Source: wine
-Version: 8.10~focal-1
+Version: 7.22~focal-1
 Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13360
+Installed-Size: 13312
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.10~focal-1), wine-devel-amd64 (= 8.10~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 7.22~focal-1), wine-devel-amd64 (= 7.22~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.10~focal-1_amd64.deb
-Size: 2145088
-MD5sum: 4eecf5a6169613d1436f936b66d4497e
-SHA1: 8662409409c67863e7a18e184fadc56a5e05e260
-SHA256: 6734314744e7db597d2b555fd413b561a862094f29fb74110eca169ce7bf9225
+Filename: ./w/wine-devel/wine-devel_7.22~focal-1_amd64.deb
+Size: 2146536
+MD5sum: 320306169412fda7e760cf5cff9d46de
+SHA1: ba7f0e9e7d3816a555c3f62ae2a655fdd04206b9
+SHA256: e039d152ec995ab780e168322685f7427a7a7152fbdb96daeefc0a4fa0c48052
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -1478,6 +1452,32 @@ Size: 2165060
 MD5sum: 26745b5dfaef6ec75b295794f6aec7e7
 SHA1: 780cfef9bfa055a8839ec999f8fba11a8c4b9d76
 SHA256: 9956b5c40592693f9cebd740dc4fda3dfb2ccd446f2d953d69454176724db2d8
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: wine-devel
+Source: wine
+Version: 8.10~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 13360
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.10~focal-1), wine-devel-amd64 (= 8.10~focal-1)
+Recommends: libcap2-bin
+Filename: ./w/wine-devel/wine-devel_8.10~focal-1_amd64.deb
+Size: 2145088
+MD5sum: 4eecf5a6169613d1436f936b66d4497e
+SHA1: 8662409409c67863e7a18e184fadc56a5e05e260
+SHA256: 6734314744e7db597d2b555fd413b561a862094f29fb74110eca169ce7bf9225
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -1545,32 +1545,6 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel
 Source: wine
 Version: 8.12~focal-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13361
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.12~focal-1), wine-devel-amd64 (= 8.12~focal-1)
-Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.12~focal-1_amd64.deb
-Size: 2153564
-MD5sum: cef1e2cfecd22954526d06f1e369862a
-SHA1: 1a67bf51c5f3a2e67607d69e1dadfcc89acf5400
-SHA256: eccd8a235562a68f9607046ce4b9381838bd3d33df695b1549d848f81bef1320
-Section: otherosfs
-Priority: optional
-Multi-Arch: foreign
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix. It
- consists of a program loader which loads and executes a Microsoft
- Windows binary, and a library (called Winelib) that implements Windows
- API calls using their Unix or X11 equivalents.  The library may also
- be used for porting Win32 code into native Unix executables.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: wine-devel
-Source: wine
-Version: 8.12~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 13537
@@ -1596,18 +1570,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wine-devel
 Source: wine
-Version: 8.13~focal-1
-Architecture: i386
+Version: 8.12~focal-1
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13536
+Installed-Size: 13361
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 8.13~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.12~focal-1), wine-devel-amd64 (= 8.12~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.13~focal-1_i386.deb
-Size: 2170828
-MD5sum: b5978e0a62bf00bc708bec2a0d41b547
-SHA1: 89856bed0ad58b62e48f83eb1a8bd5af246b5c43
-SHA256: d54de2fd1e2cec4948adca9896d85fffe176a5293f587fbff77db219ea9fcc34
+Filename: ./w/wine-devel/wine-devel_8.12~focal-1_amd64.deb
+Size: 2153564
+MD5sum: cef1e2cfecd22954526d06f1e369862a
+SHA1: 1a67bf51c5f3a2e67607d69e1dadfcc89acf5400
+SHA256: eccd8a235562a68f9607046ce4b9381838bd3d33df695b1549d848f81bef1320
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -1634,6 +1608,32 @@ Size: 2151980
 MD5sum: f33a68aa11e649561b82163cd69e7932
 SHA1: c726727714ce309f2e83a134067ad15285eac391
 SHA256: 9b63a0897220d43f4b47eedc6ea9626ae78df82f153dee872c0a2c43478b073a
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: wine-devel
+Source: wine
+Version: 8.13~focal-1
+Architecture: i386
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 13536
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 8.13~focal-1)
+Recommends: libcap2-bin
+Filename: ./w/wine-devel/wine-devel_8.13~focal-1_i386.deb
+Size: 2170828
+MD5sum: b5978e0a62bf00bc708bec2a0d41b547
+SHA1: 89856bed0ad58b62e48f83eb1a8bd5af246b5c43
+SHA256: d54de2fd1e2cec4948adca9896d85fffe176a5293f587fbff77db219ea9fcc34
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -1805,17 +1805,17 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel
 Source: wine
 Version: 8.17~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13540
+Installed-Size: 13377
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 8.17~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.17~focal-1), wine-devel-amd64 (= 8.17~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.17~focal-1_i386.deb
-Size: 2175904
-MD5sum: a3a58b59ec0803b48b3ead8d64a29bb0
-SHA1: 7c9230449d8e67f6b35b02a04735042279fd5b1d
-SHA256: ceb1da09b6bed029eb2fa3cd3ea7aa3a02b07f38bf54cda9ff2dddcb1b55be6b
+Filename: ./w/wine-devel/wine-devel_8.17~focal-1_amd64.deb
+Size: 2147788
+MD5sum: 0d6aa8d36f74f5dea55db808cf72d671
+SHA1: bd26f257a631b2bdad3df45ff35174e5b2a3ae26
+SHA256: 45866ea64469ca048e270bd349b7ebe15568fc039941aa0b03eedbee771404e3
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -1831,17 +1831,17 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel
 Source: wine
 Version: 8.17~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13377
+Installed-Size: 13540
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.17~focal-1), wine-devel-amd64 (= 8.17~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 8.17~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.17~focal-1_amd64.deb
-Size: 2147788
-MD5sum: 0d6aa8d36f74f5dea55db808cf72d671
-SHA1: bd26f257a631b2bdad3df45ff35174e5b2a3ae26
-SHA256: 45866ea64469ca048e270bd349b7ebe15568fc039941aa0b03eedbee771404e3
+Filename: ./w/wine-devel/wine-devel_8.17~focal-1_i386.deb
+Size: 2175904
+MD5sum: a3a58b59ec0803b48b3ead8d64a29bb0
+SHA1: 7c9230449d8e67f6b35b02a04735042279fd5b1d
+SHA256: ceb1da09b6bed029eb2fa3cd3ea7aa3a02b07f38bf54cda9ff2dddcb1b55be6b
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -1909,32 +1909,6 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel
 Source: wine
 Version: 8.19~focal-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13377
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.19~focal-1), wine-devel-amd64 (= 8.19~focal-1)
-Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.19~focal-1_amd64.deb
-Size: 2162568
-MD5sum: 0b1ac89338629b8d84453e6fd03a497c
-SHA1: ea16cd9be6d740c5fcfe5889bbb93acec7a3d031
-SHA256: c0496e6295c9e345dd6e2027cc4b82c8e494c395bea4d39eca10d66e491190bd
-Section: otherosfs
-Priority: optional
-Multi-Arch: foreign
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix. It
- consists of a program loader which loads and executes a Microsoft
- Windows binary, and a library (called Winelib) that implements Windows
- API calls using their Unix or X11 equivalents.  The library may also
- be used for porting Win32 code into native Unix executables.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: wine-devel
-Source: wine
-Version: 8.19~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 13540
@@ -1960,18 +1934,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wine-devel
 Source: wine
-Version: 8.8~focal-1
+Version: 8.19~focal-1
 Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13353
+Installed-Size: 13377
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.8~focal-1), wine-devel-amd64 (= 8.8~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.19~focal-1), wine-devel-amd64 (= 8.19~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.8~focal-1_amd64.deb
-Size: 2163740
-MD5sum: e8442932c09a84225680522888feae98
-SHA1: a023e3943233858008291df067c3c803d01d2aa6
-SHA256: 435a698fd725ec2b8dd7d59637060cc648a502265a83d2dad2155ab8407fc6ba
+Filename: ./w/wine-devel/wine-devel_8.19~focal-1_amd64.deb
+Size: 2162568
+MD5sum: 0b1ac89338629b8d84453e6fd03a497c
+SHA1: ea16cd9be6d740c5fcfe5889bbb93acec7a3d031
+SHA256: c0496e6295c9e345dd6e2027cc4b82c8e494c395bea4d39eca10d66e491190bd
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -2012,18 +1986,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wine-devel
 Source: wine
-Version: 8.9~focal-1
-Architecture: i386
+Version: 8.8~focal-1
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13522
+Installed-Size: 13353
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 8.9~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 8.8~focal-1), wine-devel-amd64 (= 8.8~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_8.9~focal-1_i386.deb
-Size: 2182692
-MD5sum: a0707031d2bdaee81ecc4a49b1194b54
-SHA1: 7a6af32166c918b2be16386865ca34723b47fea7
-SHA256: 6850cfcb913c214f8d90ba202bdf28df82b1dc5cc7d2eae380179bcba41398ae
+Filename: ./w/wine-devel/wine-devel_8.8~focal-1_amd64.deb
+Size: 2163740
+MD5sum: e8442932c09a84225680522888feae98
+SHA1: a023e3943233858008291df067c3c803d01d2aa6
+SHA256: 435a698fd725ec2b8dd7d59637060cc648a502265a83d2dad2155ab8407fc6ba
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -2050,6 +2024,32 @@ Size: 2141216
 MD5sum: 8e67d922c3be4e75509a4ee0a232d5f2
 SHA1: 633582de28cf15fe9d3a23b4f928c1640bd06a94
 SHA256: 53cbb08e4e6bfb97605897a66e76a6fe8bd173fa1b31803215c5bd647fdfdfdc
+Section: otherosfs
+Priority: optional
+Multi-Arch: foreign
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix. It
+ consists of a program loader which loads and executes a Microsoft
+ Windows binary, and a library (called Winelib) that implements Windows
+ API calls using their Unix or X11 equivalents.  The library may also
+ be used for porting Win32 code into native Unix executables.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: wine-devel
+Source: wine
+Version: 8.9~focal-1
+Architecture: i386
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 13522
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 8.9~focal-1)
+Recommends: libcap2-bin
+Filename: ./w/wine-devel/wine-devel_8.9~focal-1_i386.deb
+Size: 2182692
+MD5sum: a0707031d2bdaee81ecc4a49b1194b54
+SHA1: 7a6af32166c918b2be16386865ca34723b47fea7
+SHA256: 6850cfcb913c214f8d90ba202bdf28df82b1dc5cc7d2eae380179bcba41398ae
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -2117,17 +2117,17 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel
 Source: wine
 Version: 9.0~rc3~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13558
+Installed-Size: 13395
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 9.0~rc3~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 9.0~rc3~focal-1), wine-devel-amd64 (= 9.0~rc3~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_9.0~rc3~focal-1_i386.deb
-Size: 2178968
-MD5sum: d77c4ce4780c171f4770c87e98bf4dba
-SHA1: 1e231abc3d006b26294a8ea5f91d206e4e50369e
-SHA256: 866b21e5c51e89a0e9913a29353109eb28fb3fa9e1ee8d0dd6cf4dc170c38943
+Filename: ./w/wine-devel/wine-devel_9.0~rc3~focal-1_amd64.deb
+Size: 2160608
+MD5sum: bd5529967d709553e8d1b2d070d5feb3
+SHA1: 10b302ba31337a1b25e69aebd272c5fc3b07d1b2
+SHA256: 86bd25b07b38995c10984b2ad5a34ff51e9eb8d85bc3ba393cf03be335ab95fe
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -2143,17 +2143,17 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel
 Source: wine
 Version: 9.0~rc3~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 13395
+Installed-Size: 13558
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.17), wine-devel-i386 (= 9.0~rc3~focal-1), wine-devel-amd64 (= 9.0~rc3~focal-1)
+Depends: debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.28), wine-devel-i386 (= 9.0~rc3~focal-1)
 Recommends: libcap2-bin
-Filename: ./w/wine-devel/wine-devel_9.0~rc3~focal-1_amd64.deb
-Size: 2160608
-MD5sum: bd5529967d709553e8d1b2d070d5feb3
-SHA1: 10b302ba31337a1b25e69aebd272c5fc3b07d1b2
-SHA256: 86bd25b07b38995c10984b2ad5a34ff51e9eb8d85bc3ba393cf03be335ab95fe
+Filename: ./w/wine-devel/wine-devel_9.0~rc3~focal-1_i386.deb
+Size: 2178968
+MD5sum: d77c4ce4780c171f4770c87e98bf4dba
+SHA1: 1e231abc3d006b26294a8ea5f91d206e4e50369e
+SHA256: 866b21e5c51e89a0e9913a29353109eb28fb3fa9e1ee8d0dd6cf4dc170c38943
 Section: otherosfs
 Priority: optional
 Multi-Arch: foreign
@@ -2717,16 +2717,16 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 8.10~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 45097
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.10~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.10~focal-1_i386.deb
+Depends: libc6-dev, wine-devel-i386 (= 8.10~focal-1), wine-devel-amd64 (= 8.10~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.10~focal-1_amd64.deb
 Size: 3572796
-MD5sum: f2565be20cb7dc6bbfc1e0059cc6e4b8
-SHA1: f212ffea2045f364c05996ed55cec48719702ba3
-SHA256: 5280d4959fb0d427c45dc7a7b37165263fa1f8b80b883ef7a0718d2477e15554
+MD5sum: 99119be2ad607ffa9cc070014d5e9abe
+SHA1: bc84d5296cac7ced9f5887cab32f2eb2258814fd
+SHA256: 1ee8a65b2e40a8a9fc64389c92dcddf03802b3ca10a279ef92a6203c6eff1c48
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -2740,16 +2740,16 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 8.10~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 45097
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.10~focal-1), wine-devel-amd64 (= 8.10~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.10~focal-1_amd64.deb
+Depends: libc6-dev, wine-devel-i386 (= 8.10~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.10~focal-1_i386.deb
 Size: 3572796
-MD5sum: 99119be2ad607ffa9cc070014d5e9abe
-SHA1: bc84d5296cac7ced9f5887cab32f2eb2258814fd
-SHA256: 1ee8a65b2e40a8a9fc64389c92dcddf03802b3ca10a279ef92a6203c6eff1c48
+MD5sum: f2565be20cb7dc6bbfc1e0059cc6e4b8
+SHA1: f212ffea2045f364c05996ed55cec48719702ba3
+SHA256: 5280d4959fb0d427c45dc7a7b37165263fa1f8b80b883ef7a0718d2477e15554
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -2855,29 +2855,6 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 8.13~focal-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 45941
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.13~focal-1), wine-devel-amd64 (= 8.13~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.13~focal-1_amd64.deb
-Size: 3623360
-MD5sum: a9f1f8b0ff873d1f6f968a4912e3b744
-SHA1: 7ecf166e8abd96ebffc94ac1cd2ed6462bfda317
-SHA256: b0bf8fccb25e25f9cd56ceeb69c758860c7bca8b2e98871af01f2d16ad87ccee
-Section: libdevel
-Priority: optional
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This package contains the libraries and header files needed to
- develop programs which make use of Wine.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: wine-devel-dev
-Source: wine
-Version: 8.13~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 45941
@@ -2900,17 +2877,17 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wine-devel-dev
 Source: wine
-Version: 8.14~focal-1
+Version: 8.13~focal-1
 Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 46488
+Installed-Size: 45941
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.14~focal-1), wine-devel-amd64 (= 8.14~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.14~focal-1_amd64.deb
-Size: 3654460
-MD5sum: 176bf060f0076afe7465715502398df1
-SHA1: 98e360a1c14a2c35fc20bdd4ad4fdd1f5ff4f6dc
-SHA256: 0de236a12909c3f11469f3923a3aa158b75041ab316e39fed28f472732d15c26
+Depends: libc6-dev, wine-devel-i386 (= 8.13~focal-1), wine-devel-amd64 (= 8.13~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.13~focal-1_amd64.deb
+Size: 3623360
+MD5sum: a9f1f8b0ff873d1f6f968a4912e3b744
+SHA1: 7ecf166e8abd96ebffc94ac1cd2ed6462bfda317
+SHA256: b0bf8fccb25e25f9cd56ceeb69c758860c7bca8b2e98871af01f2d16ad87ccee
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -2934,6 +2911,29 @@ Size: 3654416
 MD5sum: 251505cce5d456a95b0cdac7c0fae0e8
 SHA1: 67cf50cc4121f3b2aa708aa35937e5aeb4bc093c
 SHA256: 1109bc6dfcac7270424511afd810d1207f4836193c862a0780e4fa5d4419df70
+Section: libdevel
+Priority: optional
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the libraries and header files needed to
+ develop programs which make use of Wine.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: wine-devel-dev
+Source: wine
+Version: 8.14~focal-1
+Architecture: amd64
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 46488
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6-dev, wine-devel-i386 (= 8.14~focal-1), wine-devel-amd64 (= 8.14~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.14~focal-1_amd64.deb
+Size: 3654460
+MD5sum: 176bf060f0076afe7465715502398df1
+SHA1: 98e360a1c14a2c35fc20bdd4ad4fdd1f5ff4f6dc
+SHA256: 0de236a12909c3f11469f3923a3aa158b75041ab316e39fed28f472732d15c26
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -3039,16 +3039,16 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 8.17~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 48461
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.17~focal-1), wine-devel-amd64 (= 8.17~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.17~focal-1_amd64.deb
-Size: 3695316
-MD5sum: 9e7ad6f322db7e8e3549929a07f50067
-SHA1: ae21a8847ce3651c48cb48c72b475ddbd310ab13
-SHA256: b02be639e6c771ee1b3184fd32ea9bd35ac60fc89d5d64271946ead3f3b3d5c2
+Depends: libc6-dev, wine-devel-i386 (= 8.17~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.17~focal-1_i386.deb
+Size: 3695304
+MD5sum: e1d88b28a63f7388334ea74e97a6ccbf
+SHA1: 01d06ce3a422d707418b9bb56302b24c4ea63470
+SHA256: 6a33f0b80c2d8710bd1efcff90d50b0a70eb65b27dade2c32f27fda3aa585a5d
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -3062,16 +3062,16 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 8.17~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 48461
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.17~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.17~focal-1_i386.deb
-Size: 3695304
-MD5sum: e1d88b28a63f7388334ea74e97a6ccbf
-SHA1: 01d06ce3a422d707418b9bb56302b24c4ea63470
-SHA256: 6a33f0b80c2d8710bd1efcff90d50b0a70eb65b27dade2c32f27fda3aa585a5d
+Depends: libc6-dev, wine-devel-i386 (= 8.17~focal-1), wine-devel-amd64 (= 8.17~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.17~focal-1_amd64.deb
+Size: 3695316
+MD5sum: 9e7ad6f322db7e8e3549929a07f50067
+SHA1: ae21a8847ce3651c48cb48c72b475ddbd310ab13
+SHA256: b02be639e6c771ee1b3184fd32ea9bd35ac60fc89d5d64271946ead3f3b3d5c2
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -3177,29 +3177,6 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 8.8~focal-1
-Architecture: i386
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 45282
-Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.8~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.8~focal-1_i386.deb
-Size: 3574728
-MD5sum: 61ca7d4dbf1271a4c5b22a86b2af89b6
-SHA1: 429cadac77be1717f153321d371cc2ceedbfab8c
-SHA256: 221c1f150a0bb4d16a6d0c70db2e35b227aa62a89bc0c91d389d227451575631
-Section: libdevel
-Priority: optional
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This package contains the libraries and header files needed to
- develop programs which make use of Wine.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: wine-devel-dev
-Source: wine
-Version: 8.8~focal-1
 Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 45282
@@ -3222,17 +3199,17 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: wine-devel-dev
 Source: wine
-Version: 8.9~focal-1
+Version: 8.8~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 45323
+Installed-Size: 45282
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 8.9~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_8.9~focal-1_i386.deb
-Size: 3577940
-MD5sum: 4825dc4069c6eb57c50d06b66a066346
-SHA1: 9e5d7df1ba6499d4e7b84b44503294a7e3b0a23d
-SHA256: 28ad3ce186e7623d0b0f625561df7fa5938919cbf6076295ef3cccbc28d2841a
+Depends: libc6-dev, wine-devel-i386 (= 8.8~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.8~focal-1_i386.deb
+Size: 3574728
+MD5sum: 61ca7d4dbf1271a4c5b22a86b2af89b6
+SHA1: 429cadac77be1717f153321d371cc2ceedbfab8c
+SHA256: 221c1f150a0bb4d16a6d0c70db2e35b227aa62a89bc0c91d389d227451575631
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -3256,6 +3233,29 @@ Size: 3577932
 MD5sum: 76c837aff1afb1e95c460186682fca0d
 SHA1: 7d1dd3ec6665f8af00b06ae7767d07fcc88a8694
 SHA256: ca4ec3eb6bf188e71dad478b6bc60ecb2dae30d4a517519a9b58d91b3a355004
+Section: libdevel
+Priority: optional
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This package contains the libraries and header files needed to
+ develop programs which make use of Wine.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: wine-devel-dev
+Source: wine
+Version: 8.9~focal-1
+Architecture: i386
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 45323
+Pre-Depends: dpkg (>= 1.14.12ubuntu3)
+Depends: libc6-dev, wine-devel-i386 (= 8.9~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_8.9~focal-1_i386.deb
+Size: 3577940
+MD5sum: 4825dc4069c6eb57c50d06b66a066346
+SHA1: 9e5d7df1ba6499d4e7b84b44503294a7e3b0a23d
+SHA256: 28ad3ce186e7623d0b0f625561df7fa5938919cbf6076295ef3cccbc28d2841a
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -3361,16 +3361,16 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 9.0~rc5~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 49093
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 9.0~rc5~focal-1), wine-devel-amd64 (= 9.0~rc5~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_9.0~rc5~focal-1_amd64.deb
-Size: 3728732
-MD5sum: 2334585ab5f4e7638d77c0a53aaf6a20
-SHA1: 283aeadf0afe4ba5adace6c8dd286e981cfe2085
-SHA256: 39ad9a845360d78e50ba72d585b2fbbf401dc1dba8e75779f45619aa6ffc31e4
+Depends: libc6-dev, wine-devel-i386 (= 9.0~rc5~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_9.0~rc5~focal-1_i386.deb
+Size: 3728736
+MD5sum: dd1397cc47a586af911951844109339a
+SHA1: 6265f02f29a125648321ccf456d89e89b87b50b2
+SHA256: 7fec8f360b70811d056e083d55346d3d0ff52737010f6ea400ca8c8ecd0ed6bf
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -3384,16 +3384,16 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: wine-devel-dev
 Source: wine
 Version: 9.0~rc5~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 49093
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
-Depends: libc6-dev, wine-devel-i386 (= 9.0~rc5~focal-1)
-Filename: ./w/wine-devel-dev/wine-devel-dev_9.0~rc5~focal-1_i386.deb
-Size: 3728736
-MD5sum: dd1397cc47a586af911951844109339a
-SHA1: 6265f02f29a125648321ccf456d89e89b87b50b2
-SHA256: 7fec8f360b70811d056e083d55346d3d0ff52737010f6ea400ca8c8ecd0ed6bf
+Depends: libc6-dev, wine-devel-i386 (= 9.0~rc5~focal-1), wine-devel-amd64 (= 9.0~rc5~focal-1)
+Filename: ./w/wine-devel-dev/wine-devel-dev_9.0~rc5~focal-1_amd64.deb
+Size: 3728732
+MD5sum: 2334585ab5f4e7638d77c0a53aaf6a20
+SHA1: 283aeadf0afe4ba5adace6c8dd286e981cfe2085
+SHA256: 39ad9a845360d78e50ba72d585b2fbbf401dc1dba8e75779f45619aa6ffc31e4
 Section: libdevel
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4287,31 +4287,6 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 8.10~focal-1
-Architecture: amd64
-Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 73
-Depends: wine-devel (= 8.10~focal-1)
-Conflicts: wine, wine-amd64, wine-i386
-Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./w/winehq-devel/winehq-devel_8.10~focal-1_amd64.deb
-Size: 1944
-MD5sum: a65e91b7cf660d4fefc5163fc71c929f
-SHA1: 2c0d68a019c060e4a6db22b00a61189981d0d64d
-SHA256: ae2bace85cc6044f3df752e158b87abc0eeb82245bb3ae586b39e05bf83d0683
-Section: otherosfs
-Priority: optional
-Description: WINE Is Not An Emulator - runs MS Windows programs
- Wine is a program which allows running Microsoft Windows programs
- (including DOS, Windows 3.x and Win32 executables) on Unix.
- .
- This compatibility package allows to use wine-devel system-wide as
- the default Wine version.
-Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
-
-Package: winehq-devel
-Source: wine
-Version: 8.10~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 71
@@ -4336,19 +4311,19 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: winehq-devel
 Source: wine
-Version: 8.11~focal-1
+Version: 8.10~focal-1
 Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 73
-Depends: wine-devel (= 8.11~focal-1)
+Depends: wine-devel (= 8.10~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
 Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./w/winehq-devel/winehq-devel_8.11~focal-1_amd64.deb
-Size: 1936
-MD5sum: 1c2f57680f768d3425cd671959e7cb19
-SHA1: 53e271ea4f17cf5017dff21979516001678bbdac
-SHA256: ce1f00ea0aa85ebe9a0fc0eba89d75bfc214898e6dc398014960339bbf6c67ca
+Filename: ./w/winehq-devel/winehq-devel_8.10~focal-1_amd64.deb
+Size: 1944
+MD5sum: a65e91b7cf660d4fefc5163fc71c929f
+SHA1: 2c0d68a019c060e4a6db22b00a61189981d0d64d
+SHA256: ae2bace85cc6044f3df752e158b87abc0eeb82245bb3ae586b39e05bf83d0683
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4386,19 +4361,19 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: winehq-devel
 Source: wine
-Version: 8.12~focal-1
-Architecture: i386
+Version: 8.11~focal-1
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 71
-Depends: wine-devel (= 8.12~focal-1)
+Installed-Size: 73
+Depends: wine-devel (= 8.11~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
-Filename: ./w/winehq-devel/winehq-devel_8.12~focal-1_i386.deb
-Size: 1932
-MD5sum: c026f6c61c33bdcdf68efd3a46f5782a
-SHA1: 32025ca69299697172215a5244810b96a1c61fcb
-SHA256: 9b70f088c6a9b040022b2ab0c1aff044007eccc0034d4df52242e71c3983fa98
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./w/winehq-devel/winehq-devel_8.11~focal-1_amd64.deb
+Size: 1936
+MD5sum: 1c2f57680f768d3425cd671959e7cb19
+SHA1: 53e271ea4f17cf5017dff21979516001678bbdac
+SHA256: ce1f00ea0aa85ebe9a0fc0eba89d75bfc214898e6dc398014960339bbf6c67ca
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4436,19 +4411,19 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: winehq-devel
 Source: wine
-Version: 8.13~focal-1
+Version: 8.12~focal-1
 Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
 Installed-Size: 71
-Depends: wine-devel (= 8.13~focal-1)
+Depends: wine-devel (= 8.12~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
 Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
-Filename: ./w/winehq-devel/winehq-devel_8.13~focal-1_i386.deb
-Size: 1924
-MD5sum: e32d20ad79c1fa44a1e70a544fb58ab1
-SHA1: 2ab5f72055f4d68a44b2aba5d7ec596cd8d41b4c
-SHA256: 52c32a5eebaa1db7a69ce2b730c0c98bbf94d1e12d4ca6cd9c17d190cc65f3d7
+Filename: ./w/winehq-devel/winehq-devel_8.12~focal-1_i386.deb
+Size: 1932
+MD5sum: c026f6c61c33bdcdf68efd3a46f5782a
+SHA1: 32025ca69299697172215a5244810b96a1c61fcb
+SHA256: 9b70f088c6a9b040022b2ab0c1aff044007eccc0034d4df52242e71c3983fa98
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4486,19 +4461,19 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: winehq-devel
 Source: wine
-Version: 8.14~focal-1
-Architecture: amd64
+Version: 8.13~focal-1
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 73
-Depends: wine-devel (= 8.14~focal-1)
+Installed-Size: 71
+Depends: wine-devel (= 8.13~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./w/winehq-devel/winehq-devel_8.14~focal-1_amd64.deb
-Size: 1940
-MD5sum: 1056e5009e74c29a3f45b24afbaf388e
-SHA1: b234de9828ac9ba35b2c38f3fe4db13598203e92
-SHA256: 3840f4cfa18b6d19871e3566d522ffc0ada85480f816aab5af09497dcfc3f763
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
+Filename: ./w/winehq-devel/winehq-devel_8.13~focal-1_i386.deb
+Size: 1924
+MD5sum: e32d20ad79c1fa44a1e70a544fb58ab1
+SHA1: 2ab5f72055f4d68a44b2aba5d7ec596cd8d41b4c
+SHA256: 52c32a5eebaa1db7a69ce2b730c0c98bbf94d1e12d4ca6cd9c17d190cc65f3d7
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4536,19 +4511,19 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 
 Package: winehq-devel
 Source: wine
-Version: 8.15~focal-1
-Architecture: i386
+Version: 8.14~focal-1
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 71
-Depends: wine-devel (= 8.15~focal-1)
+Installed-Size: 73
+Depends: wine-devel (= 8.14~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
-Filename: ./w/winehq-devel/winehq-devel_8.15~focal-1_i386.deb
-Size: 1924
-MD5sum: 52702406524fa15cba7606d74a35bbd4
-SHA1: ba5c5cf227d898de3a5bd6023728b5e89c0beca8
-SHA256: daedf556b65893a1b514945254f899d7f91abe18e9e82c65e30394c4764277cb
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./w/winehq-devel/winehq-devel_8.14~focal-1_amd64.deb
+Size: 1940
+MD5sum: 1056e5009e74c29a3f45b24afbaf388e
+SHA1: b234de9828ac9ba35b2c38f3fe4db13598203e92
+SHA256: 3840f4cfa18b6d19871e3566d522ffc0ada85480f816aab5af09497dcfc3f763
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4574,6 +4549,31 @@ Size: 1944
 MD5sum: 71d878bf4c007b3a46ddf03f4e8ccc93
 SHA1: 42d42ccc4b1afdc57a97e1ec2acc3e5c5d343079
 SHA256: fa77c8e2d3bbe8b6a139d33dc2de4af713eabd808f857a19b7f421df26708866
+Section: otherosfs
+Priority: optional
+Description: WINE Is Not An Emulator - runs MS Windows programs
+ Wine is a program which allows running Microsoft Windows programs
+ (including DOS, Windows 3.x and Win32 executables) on Unix.
+ .
+ This compatibility package allows to use wine-devel system-wide as
+ the default Wine version.
+Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
+
+Package: winehq-devel
+Source: wine
+Version: 8.15~focal-1
+Architecture: i386
+Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
+Installed-Size: 71
+Depends: wine-devel (= 8.15~focal-1)
+Conflicts: wine, wine-amd64, wine-i386
+Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
+Filename: ./w/winehq-devel/winehq-devel_8.15~focal-1_i386.deb
+Size: 1924
+MD5sum: 52702406524fa15cba7606d74a35bbd4
+SHA1: ba5c5cf227d898de3a5bd6023728b5e89c0beca8
+SHA256: daedf556b65893a1b514945254f899d7f91abe18e9e82c65e30394c4764277cb
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4787,18 +4787,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 8.8~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 71
+Installed-Size: 73
 Depends: wine-devel (= 8.8~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
-Filename: ./w/winehq-devel/winehq-devel_8.8~focal-1_i386.deb
-Size: 1928
-MD5sum: 55a08a1dafd6058e5e347cbd6b3b0d17
-SHA1: e69017e9028c1ffdc9ceeea94a50d56e4286c223
-SHA256: 75c9553eebb09482dfa95d24f3a04699bff47992c71e9ab857f989eb2868dc29
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./w/winehq-devel/winehq-devel_8.8~focal-1_amd64.deb
+Size: 1940
+MD5sum: 1f9510532241cde2da9b49355776cea0
+SHA1: 708289132066ac29319f12e0950550a3e9704e64
+SHA256: 818d47bb1664ee1a5090f1cee3f3c57e470f71e1ab4acfbe1b3b18485c53a0ca
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4812,18 +4812,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 8.8~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 73
+Installed-Size: 71
 Depends: wine-devel (= 8.8~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./w/winehq-devel/winehq-devel_8.8~focal-1_amd64.deb
-Size: 1940
-MD5sum: 1f9510532241cde2da9b49355776cea0
-SHA1: 708289132066ac29319f12e0950550a3e9704e64
-SHA256: 818d47bb1664ee1a5090f1cee3f3c57e470f71e1ab4acfbe1b3b18485c53a0ca
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
+Filename: ./w/winehq-devel/winehq-devel_8.8~focal-1_i386.deb
+Size: 1928
+MD5sum: 55a08a1dafd6058e5e347cbd6b3b0d17
+SHA1: e69017e9028c1ffdc9ceeea94a50d56e4286c223
+SHA256: 75c9553eebb09482dfa95d24f3a04699bff47992c71e9ab857f989eb2868dc29
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4887,18 +4887,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 9.0~rc2~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 71
+Installed-Size: 73
 Depends: wine-devel (= 9.0~rc2~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
-Filename: ./w/winehq-devel/winehq-devel_9.0~rc2~focal-1_i386.deb
-Size: 1932
-MD5sum: 7eadcb694316da6ee58051a258f55e6a
-SHA1: aac5eff6abf90b9b1873a43dcc784eeaed2790a1
-SHA256: 8084dc2e4a400b3e6ee8c6c3575793129f2a7e8562f1d00ccf90a8306a0f071f
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./w/winehq-devel/winehq-devel_9.0~rc2~focal-1_amd64.deb
+Size: 1940
+MD5sum: 20bf8ddade26c2d14236153b68eca534
+SHA1: ca13c4c64455bee142c0fa9f9c50f3de4806f272
+SHA256: cb79654f1a3d3eb18748ef94300e45dde16136079455c4a08d8701405a4a081b
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4912,18 +4912,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 9.0~rc2~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 73
+Installed-Size: 71
 Depends: wine-devel (= 9.0~rc2~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./w/winehq-devel/winehq-devel_9.0~rc2~focal-1_amd64.deb
-Size: 1940
-MD5sum: 20bf8ddade26c2d14236153b68eca534
-SHA1: ca13c4c64455bee142c0fa9f9c50f3de4806f272
-SHA256: cb79654f1a3d3eb18748ef94300e45dde16136079455c4a08d8701405a4a081b
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
+Filename: ./w/winehq-devel/winehq-devel_9.0~rc2~focal-1_i386.deb
+Size: 1932
+MD5sum: 7eadcb694316da6ee58051a258f55e6a
+SHA1: aac5eff6abf90b9b1873a43dcc784eeaed2790a1
+SHA256: 8084dc2e4a400b3e6ee8c6c3575793129f2a7e8562f1d00ccf90a8306a0f071f
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -4987,18 +4987,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 9.0~rc5~focal-1
-Architecture: amd64
+Architecture: i386
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 73
+Installed-Size: 71
 Depends: wine-devel (= 9.0~rc5~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Filename: ./w/winehq-devel/winehq-devel_9.0~rc5~focal-1_amd64.deb
-Size: 1944
-MD5sum: 7c30858047ae584fc800636e2a6a1a6c
-SHA1: 3f8ec34c116dcf25d7d622c05d218b919d3bed3d
-SHA256: 723e8a4df4d324269551bf0c80c614221152ae6b6b365380974cc48d0832181a
+Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
+Filename: ./w/winehq-devel/winehq-devel_9.0~rc5~focal-1_i386.deb
+Size: 1932
+MD5sum: 2eea8de22e4d260cbde15bd3caf09382
+SHA1: 3c5cae2e0b9b90fcb9412e0c97272d9d1689b57d
+SHA256: 0dc48b94adc79fe84b402c081d93c908b7b2682addb7dbc08ed0b08a394dad9a
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
@@ -5012,18 +5012,18 @@ Original-Maintainer: WineHQ Builds <webmaster@fds-team.de>
 Package: winehq-devel
 Source: wine
 Version: 9.0~rc5~focal-1
-Architecture: i386
+Architecture: amd64
 Maintainer: Rosanne DiMesio <dimesio@earthlink.net>, Marcus Meissner <meissner@suse.com>
-Installed-Size: 71
+Installed-Size: 73
 Depends: wine-devel (= 9.0~rc5~focal-1)
 Conflicts: wine, wine-amd64, wine-i386
 Replaces: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
-Provides: wine, wine-i386, wine1.4, wine1.4-i386, wine1.5, wine1.5-i386, wine1.6, wine1.6-i386, wine1.7, wine1.7-i386, wine32
-Filename: ./w/winehq-devel/winehq-devel_9.0~rc5~focal-1_i386.deb
-Size: 1932
-MD5sum: 2eea8de22e4d260cbde15bd3caf09382
-SHA1: 3c5cae2e0b9b90fcb9412e0c97272d9d1689b57d
-SHA256: 0dc48b94adc79fe84b402c081d93c908b7b2682addb7dbc08ed0b08a394dad9a
+Provides: wine, wine-amd64, wine-i386, wine1.4, wine1.4-amd64, wine1.4-i386, wine1.5, wine1.5-amd64, wine1.5-i386, wine1.6, wine1.6-amd64, wine1.6-i386, wine1.7, wine1.7-amd64, wine1.7-i386, wine32, wine64
+Filename: ./w/winehq-devel/winehq-devel_9.0~rc5~focal-1_amd64.deb
+Size: 1944
+MD5sum: 7c30858047ae584fc800636e2a6a1a6c
+SHA1: 3f8ec34c116dcf25d7d622c05d218b919d3bed3d
+SHA256: 723e8a4df4d324269551bf0c80c614221152ae6b6b365380974cc48d0832181a
 Section: otherosfs
 Priority: optional
 Description: WINE Is Not An Emulator - runs MS Windows programs
